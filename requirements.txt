@@ -1,0 +1,3 @@
+# Zensical is the successor to Material for MkDocs (which reaches end of life
+# on May 5, 2027). It reads this project's mkdocs.yml as-is.
+zensical

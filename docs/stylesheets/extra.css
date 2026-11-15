@@ -1,0 +1,12 @@
+/* Small tweaks on top of Material. Add your own CSS here. */
+
+/* Give screenshots a soft border and rounded corners. */
+.md-typeset img.screenshot {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+}
+
+/* Project cards on the home and projects pages. */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 8px;
+}
