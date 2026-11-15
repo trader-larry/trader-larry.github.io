@@ -94,6 +94,12 @@ nav:
           - Features: projects/dividend-dashboard/features.md
           - Screenshots: projects/dividend-dashboard/screenshots.md
           - FAQ: projects/dividend-dashboard/faq.md
+      - Desktop Charts:
+          - projects/desktop-charts/index.md
+          - Getting started: projects/desktop-charts/getting-started.md
+          - Features: projects/desktop-charts/features.md
+          - Screenshots: projects/desktop-charts/screenshots.md
+          - FAQ: projects/desktop-charts/faq.md
   - Blog:
       - blog/index.md
   - About: about.md
