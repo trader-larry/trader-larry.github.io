@@ -2,7 +2,7 @@
 
 A TradingView-style charting app that runs on your own computer and opens in
 your web browser. Up to eight charts on one screen, volume profile and TPO,
-anchored VWAP, drawing tools and a watchlist, with live market data from your
+anchored VWAP, drawing tools, price alerts and watchlists, with live market data from your
 tastytrade account. Without an account it runs on demo data, so anyone can try it.
 
 [:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/desktop-charts){ .md-button .md-button--primary }
@@ -40,7 +40,10 @@ machine, and only ever reads market data.
 - **Anchored VWAP:** click any bar to anchor it, with optional bands.
 - **Drawing tools:** trend lines, rays, horizontal lines, rectangles, fib
   retracements, text and a measure tool, saved per symbol.
-- **Watchlist:** last, change, volume and pre-market / after-hours change for stocks.
+- **Price alerts:** right-click a chart or press Alt+A, and get a chime, a pop-up
+  and a desktop notification when price crosses your level.
+- **Watchlists:** as many named lists as you like, with last, change, volume and
+  pre-market / after-hours change for stocks.
 - **Saved layouts:** keep a "Scalping" and a "Swing" setup and switch between them.
 
 See the full [feature tour](features.md) or the [screenshots](screenshots.md).

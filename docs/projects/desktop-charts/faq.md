@@ -28,6 +28,16 @@
 ??? question "The browser doesn't open"
     Open <http://localhost:8787> yourself.
 
+??? question "Why does it open in a window without tabs or an address bar?"
+    The start scripts open the app in a Chrome or Edge app window, which
+    remembers its size and position. To use a normal tab instead, set
+    `APPWINDOW=0` near the top of `start-windows.bat` or `start-mac.command`.
+
+??? question "Do price alerts work when the app is closed?"
+    No. Alerts are checked by the app while it's open; it can be minimized or in
+    the background. Allow notifications when your browser asks, so a Windows or
+    Mac notification appears even when the window isn't in front.
+
 ??? question "It says \"address already in use\""
     It's already running in another window. Close that one first, or set a
     different `"port"` in `config.json`.
@@ -43,7 +53,7 @@
     candle data doesn't include bid/ask volume. The chart labels them "≈ buy/sell
     from bars".
 
-??? question "Where are my layouts, drawings and watchlist saved?"
+??? question "Where are my layouts, drawings, watchlists and alerts saved?"
     In your browser's local storage, so they stay with that browser on that
     computer. Clearing your browser data removes them.
 
