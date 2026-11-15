@@ -38,7 +38,7 @@ theme:
         name: Switch to system preference
   features:
     - navigation.tabs          # top-level tabs: Home / Projects / Blog / About
-    - navigation.sections
+    # (navigation.sections is off so each project folds open and closed in the sidebar)
     - navigation.indexes       # a folder's index.md becomes its landing page
     - navigation.top           # "back to top" button
     - navigation.footer
