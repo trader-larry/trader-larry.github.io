@@ -101,9 +101,9 @@ records (MX, TXT) alone.
    Optional IPv6 (AAAA, host `@`): `2606:50c0:8000::153`, `2606:50c0:8001::153`,
    `2606:50c0:8002::153`, `2606:50c0:8003::153`.
 3. **In the site repo:** **Settings → Pages → Custom domain**, enter
-   `www.traderlarry.com` and save. GitHub checks the DNS (can take up to an hour,
-   occasionally a day). The bare `traderlarry.com` will redirect to `www`.
+   `traderlarry.com` and save. GitHub checks the DNS (can take up to an hour,
+   occasionally a day). `www.traderlarry.com` will redirect to it.
 4. When the check passes, tick **Enforce HTTPS**.
-5. In `mkdocs.yml`, set `site_url: https://www.traderlarry.com/` and push.
+5. In `mkdocs.yml`, set `site_url: https://traderlarry.com/` and push.
 
 GitHub's own guide: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
