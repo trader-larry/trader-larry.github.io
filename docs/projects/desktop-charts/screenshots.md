@@ -9,6 +9,13 @@ profile, POC and value area, next to the watchlist.
 
 ![Four 5-minute charts (SPY, QQQ, IWM, AAPL) with volume profiles and the watchlist](../../assets/images/desktop-charts/overview.webp){ .screenshot loading=lazy }
 
+## Price alerts
+
+Two alerts on an NVDA chart, shown as orange lines with arrows for up and down,
+and the bell menu listing them.
+
+![NVDA 5-minute chart with two orange alert lines and the bell menu listing a crossing-up and a crossing-down alert](../../assets/images/desktop-charts/7-price-alerts.webp){ .screenshot loading=lazy }
+
 ## Extended hours shading
 
 Pre-market and after-hours bars are shaded on intraday stock charts. The
@@ -41,3 +48,9 @@ Last, change, change % and the extended-hours (Ext) column, with details for
 the selected symbol at the bottom.
 
 ![Watchlist with stocks, futures and BTC/USD, including the extended-hours column](../../assets/images/desktop-charts/6-watchlist.webp){ .screenshot loading=lazy width="320" }
+
+## Several watchlists
+
+Click the watchlist's name to switch lists, or to create, copy or rename one.
+
+![Watchlist menu with Create new list, Make a copy, Rename, and the lists Earnings week, Futures and Watchlist](../../assets/images/desktop-charts/8-watchlists.webp){ .screenshot loading=lazy width="320" }

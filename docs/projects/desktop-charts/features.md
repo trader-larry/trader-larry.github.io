@@ -4,7 +4,14 @@
 
 Candles on a dark, TradingView-style chart with 1m, 2m, 5m, 15m, 30m, 1h, daily
 and weekly timeframes. The legend shows open, high, low, close and change for
-the bar under the crosshair. **Alt+R** (or the corners icon) resets the view.
+the bar under the crosshair.
+
+Each chart remembers its zoom and scroll for every timeframe, so it reopens
+showing the same span you left it on. **Alt+R** (or the corners icon) puts it
+back to the default view.
+
+Intraday charts load about ten days of 1-minute history (more for the longer
+timeframes), so a 1m chart still has several sessions on a Monday morning.
 
 ## Multi-chart layouts
 
@@ -61,11 +68,37 @@ close. ++ctrl+z++ and ++ctrl+y++ undo and redo.
 Drawings are saved per symbol. Horizontal lines and rays show on every chart of
 that symbol; select a drawing and use **This chart / All charts** to change that.
 
+## Price alerts
+
+Set an alert in whichever way is handiest:
+
+- Right-click a chart and choose **Add alert**.
+- Press ++alt+a++ to set one at the price under the cursor.
+- Click **Add alert** on a horizontal line's toolbar.
+- Click the bell button, then **+ Create**.
+
+Each alert is **crossing**, **crossing up** or **crossing down** a price, and
+fires **only once** or **every time** (at most once a minute), with an optional
+message. Alerts show as orange lines with a small arrow on the chart, and you
+can drag a line to move its alert.
+
+When an alert fires you get a chime, a pop-up in the app, a Windows or Mac
+notification and an entry in the bell menu's **Log**. The bell menu lists every
+alert, where you can edit, stop, restart or delete them, and turn the sound off.
+
+!!! note "Alerts need the app open"
+    Alerts are checked while the app is running (it can be in the background).
+    For stocks outside regular hours they use the pre-market or after-hours price.
+
 ## Watchlist
 
 Click **+** to add symbols, and the ⋮ menu to choose columns: Last, Change,
 Change %, Volume and **Ext**, the pre-market or after-hours change for stocks
 (hover it for the price). Click a symbol to load it in the active chart.
+
+**Several watchlists:** click the watchlist's name to create a new list, make a
+copy, rename it, switch between lists, or delete one (× on hover). For example,
+keep a "Futures" list next to an "Earnings week" list.
 
 ## Extended hours
 

@@ -52,8 +52,13 @@ node --version   # should be v18 or higher
     node server.js
     ```
 
-Your browser opens the charts at <http://localhost:8787>. Leave the command
-window open while you chart.
+The charts open at <http://localhost:8787> in their own Chrome or Edge app
+window (no tabs or address bar), which remembers its size and position. If
+neither browser is installed, your default browser opens instead. Leave the
+command window open while you chart.
+
+!!! tip "Prefer a normal browser tab?"
+    Open the start script in a text editor and set `APPWINDOW=0` near the top.
 
 !!! tip "Try it without an account"
     Until you add tastytrade keys, the app runs on generated demo data. To force
@@ -100,10 +105,11 @@ Close the command window, or press ++ctrl+c++ in it.
 | Option | What it does |
 |---|---|
 | `--demo` | Use demo data even if tastytrade keys are set |
+| `APPWINDOW=0` | In the start script: open a normal browser tab instead of an app window |
 | `PORT=9000` | Environment variable to use a different port (or set `"port"` in `config.json`) |
 
 ## Updating
 
 Download the new version the same way and copy its files over your folder.
 Downloads never include `config.json`, so your keys are kept. Your layouts,
-drawings and watchlist are stored in your browser and stay as they are.
+drawings, watchlists and alerts are stored in your browser and stay as they are.
