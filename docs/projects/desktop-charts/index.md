@@ -8,7 +8,7 @@ tastytrade account. Without an account it runs on demo data, so anyone can try i
 [:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/desktop-charts){ .md-button .md-button--primary }
 [:material-rocket-launch: Get started](getting-started.md){ .md-button }
 
-![Desktop Charts with four charts (SPY, /ES, NVDA and QQQ), each with a visible-range volume profile, and the watchlist on the right](../../assets/images/desktop-charts/overview.webp){ .screenshot }
+![Desktop Charts with four 5-minute charts (SPY, QQQ, IWM and AAPL), each with a visible-range volume profile, and the watchlist on the right](../../assets/images/desktop-charts/overview.webp){ .screenshot }
 
 ## Why I built it
 

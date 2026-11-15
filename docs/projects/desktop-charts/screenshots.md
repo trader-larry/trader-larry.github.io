@@ -4,16 +4,10 @@ All screenshots use the built-in demo data, so the prices are synthetic.
 
 ## Four-chart layout
 
-SPY, /ES, NVDA and QQQ on different timeframes, each with a visible-range
-volume profile, POC and value area.
+SPY, QQQ, IWM and AAPL on 5-minute charts, each with a visible-range volume
+profile, POC and value area, next to the watchlist.
 
-![Four charts (SPY 5m, /ES 15m, NVDA 1h, QQQ daily) with volume profiles and the watchlist](../../assets/images/desktop-charts/overview.webp){ .screenshot loading=lazy }
-
-## Same timeframe across charts
-
-Four 5-minute charts side by side with interval sync on.
-
-![Four 5-minute charts (SPY, QQQ, IWM, AAPL) with volume profiles](../../assets/images/desktop-charts/1-four-charts.webp){ .screenshot loading=lazy }
+![Four 5-minute charts (SPY, QQQ, IWM, AAPL) with volume profiles and the watchlist](../../assets/images/desktop-charts/overview.webp){ .screenshot loading=lazy }
 
 ## Extended hours shading
 
