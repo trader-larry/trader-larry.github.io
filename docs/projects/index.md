@@ -14,6 +14,15 @@ a feature tour, screenshots and an FAQ.
     [:octicons-arrow-right-24: Overview](dividend-dashboard/index.md) ·
     [:fontawesome-brands-github: Repo](https://github.com/trader-larry/dividend-dashboard)
 
+-   :material-chart-box-outline:{ .lg .middle } **Desktop Charts**
+
+    ---
+
+    TradingView-style charts on your own computer, with tastytrade data.
+
+    [:octicons-arrow-right-24: Overview](desktop-charts/index.md) ·
+    [:fontawesome-brands-github: Repo](https://github.com/trader-larry/desktop-charts)
+
 </div>
 
 <!--
