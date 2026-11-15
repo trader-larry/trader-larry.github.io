@@ -6,8 +6,8 @@ hide:
 
 # Welcome
 
-I build small Python apps that I use every day, and I publish them on
-[GitHub](https://github.com/trader-larry). This site is where I explain them in
+I am using this 'sandbox' to save my project ideas. I am using my knowledge along with Ai to help build small Python apps that I use every day, and I publish some of them on
+[GitHub](https://github.com/trader-larry). This site helps to where I can explain them in
 more detail than a README allows: what each app does, how to get started, worked
 examples with screenshots, answers to common questions, and notes on what's changed.
 
