@@ -1,0 +1,10 @@
+{
+  // When you paste or drag an image into a blog post, VS Code copies it here
+  // and writes the Markdown image line for you.
+  "markdown.copyFiles.destination": {
+    "docs/blog/posts/**": "${documentWorkspaceFolder}/docs/assets/images/blog/${fileName}",
+    "docs/projects/**": "${documentWorkspaceFolder}/docs/assets/images/${fileName}"
+  },
+  "markdown.copyFiles.overwriteBehavior": "nameIncrementally",
+  "files.trimTrailingWhitespace": false
+}
