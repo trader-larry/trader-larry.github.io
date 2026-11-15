@@ -45,6 +45,8 @@ so Zensical is the one to stay on.)
 
 ## Writing
 
+**Step-by-step guide: [WRITING.md](WRITING.md)** (new posts, images, drafts, new projects).
+
 - **New blog post:** add a file to `docs/blog/posts/`, e.g.
   `2026-12-01-overlap-tab.md`, starting with:
 
