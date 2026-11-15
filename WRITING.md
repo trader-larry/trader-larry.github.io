@@ -4,13 +4,59 @@ A quick reference for updating traderlarry.com. Every change you push to the
 `main` branch republishes the site in about a minute. You can watch it happen in
 the repo's **Actions** tab (green check = live).
 
-There are two ways to work. Use whichever is easier that day.
+## Your usual routine (VS Code)
 
-| | Edit on github.com | Edit on your computer |
+This is the setup you already have working. Your site folder is cloned on your
+computer and opens in its own VS Code window.
+
+1. **Open the site:** in VS Code, **File → Open Recent → trader-larry.github.io**.
+   Keep it in its own window, separate from your other project.
+2. **Get the latest:** click **Source Control** on the left, then **Sync Changes**
+   (or the circular-arrows icon at the bottom left). This picks up anything you
+   edited on github.com.
+3. **New post:** in the file list, right-click **docs → blog → posts → New File...**
+   and name it like `2026-12-01-my-post-title.md` (lowercase, dashes, no spaces).
+4. **Paste the header** from [`templates/blog-post.md`](templates/blog-post.md)
+   (or copy it from your last post) and write the post.
+5. **Preview side by side:** click the page-with-magnifying-glass icon at the top
+   right of the editor, or press **Ctrl+K**, let go, then **V**.
+6. **Add a picture:** copy an image (a file in File Explorer, or a screenshot with
+   **Win+Shift+S**), click an empty line in the post, and press **Ctrl+V**. VS Code
+   saves the image in `docs/assets/images/blog/` and writes the image line. Replace
+   `alt text` with a short description of the picture.
+7. **Save:** **Ctrl+S** (a white dot on the file's tab means unsaved changes).
+8. **Publish:** **Source Control** → type a short message (e.g. `Post: my first
+   options trade`) → **Commit** (say **Yes** to staging all changes) → **Sync Changes**.
+9. **Check:** about a minute later, open https://traderlarry.com/blog/.
+
+### Two things that tripped us up the first time
+
+- **Ctrl+V pastes the file's path instead of the picture:** the bottom-right of
+  the VS Code window must say **Markdown**. If it says **Python Markdown** (that
+  comes from the Zensical Studio extension), click it and choose **Markdown**, or
+  disable that extension in the Extensions panel.
+- **"Can't push refs to remote" / GH007 private email:** this site's commits
+  must use GitHub's private address. It's already set in your copy. If you ever
+  clone the site again, run this once in **Terminal → New Terminal**:
+
+  ```bash
+  git config user.email "250744214+trader-larry@users.noreply.github.com"
+  ```
+
+  If a commit was already refused, then also run
+  `git commit --amend --reset-author --no-edit` and `git push`.
+
+The rest of this guide has more detail and other ways to work.
+
+---
+
+## Other ways to work
+
+| | Edit on github.com | Edit on your computer (VS Code) |
 |---|---|---|
-| Setup | None | One time (below) |
-| Preview before publishing | No (use `draft: true`) | Yes, live preview |
-| Adding many images | Fine for a few | Easiest |
+| Setup | None | Done |
+| Preview before publishing | No (use `draft: true`) | Yes, side by side |
+| Adding many images | Fine for a few | Easiest (Ctrl+V) |
 
 ---
 
@@ -55,6 +101,9 @@ The rest of the post...
 - **`<!-- more -->`:** everything above it is the teaser on the blog's front page.
 
 ### 3. Add pictures (optional)
+
+**In VS Code:** copy the image and press **Ctrl+V** in the post (see "Your usual
+routine" above). The steps below are the by-hand way.
 
 1. Put images in `docs/assets/images/blog/`. Start the file name with the post's
    date so they stay grouped, e.g. `2026-12-01-spy-chart.webp`.
