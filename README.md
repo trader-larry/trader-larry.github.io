@@ -79,11 +79,11 @@ so Zensical is the one to stay on.)
 
 ## Point your Namecheap domain at it
 
-Replace `yourdomain.com` below with your domain. These steps leave your email
+These steps leave your email
 records (MX, TXT) alone.
 
 1. **Tell GitHub the domain (recommended first step):** in your GitHub account,
-   **Settings → Pages → Add a domain**, enter `yourdomain.com`, and add the TXT
+   **Settings → Pages → Add a domain**, enter `traderlarry.com`, and add the TXT
    record it shows you in Namecheap (step 2). This verification stops anyone else
    from claiming your domain on GitHub Pages.
 2. **Namecheap → Domain List → Manage → Advanced DNS.** Delete Namecheap's default
@@ -101,9 +101,9 @@ records (MX, TXT) alone.
    Optional IPv6 (AAAA, host `@`): `2606:50c0:8000::153`, `2606:50c0:8001::153`,
    `2606:50c0:8002::153`, `2606:50c0:8003::153`.
 3. **In the site repo:** **Settings → Pages → Custom domain**, enter
-   `www.yourdomain.com` and save. GitHub checks the DNS (can take up to an hour,
-   occasionally a day). The bare `yourdomain.com` will redirect to `www`.
+   `www.traderlarry.com` and save. GitHub checks the DNS (can take up to an hour,
+   occasionally a day). The bare `traderlarry.com` will redirect to `www`.
 4. When the check passes, tick **Enforce HTTPS**.
-5. In `mkdocs.yml`, set `site_url: https://www.yourdomain.com/` and push.
+5. In `mkdocs.yml`, set `site_url: https://www.traderlarry.com/` and push.
 
 GitHub's own guide: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site

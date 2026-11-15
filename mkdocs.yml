@@ -1,11 +1,11 @@
 # ---------------------------------------------------------------------------
 # Site settings, read by Zensical (and by MkDocs + Material, which still works).
-# Change site_url (marked TODO) when your custom domain is set up.
+# The site lives at https://www.traderlarry.com (custom domain via GitHub Pages).
 # ---------------------------------------------------------------------------
 site_name: Larry's Projects
 site_description: Articles, guides and progress notes for my open-source Python apps.
 site_author: Larry
-site_url: https://trader-larry.github.io/  # TODO: change to https://www.yourdomain.com/ once your domain is set up
+site_url: https://www.traderlarry.com/
 repo_url: https://github.com/trader-larry  # links the GitHub icon in the header to your profile
 repo_name: trader-larry
 copyright: Copyright &copy; 2026 Larry
