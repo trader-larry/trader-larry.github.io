@@ -110,40 +110,6 @@ alert, where you can edit, stop, restart or delete them, and turn the sound off.
     Alerts are checked while the app is running (it can be in the background).
     For stocks outside regular hours they use the pre-market or after-hours price.
 
-![alt text](<../../assets/images/desktop-charts/Screenshot 2026-11-17 154347.png>)
-
-<div class="image-grid" markdown>
-
-<figure markdown="span">
-
-![NVDA 1-minute chart with two orange price alert lines](../../assets/images/desktop-charts/alerts/alert-lines.png){ .screenshot loading=lazy }
-
-<figcaption>Alert lines on the chart</figcaption>
-</figure>
-
-<figure markdown="span">
-
-![Windows notification: Alert NVDA crossed down through 152.00](../../assets/images/desktop-charts/alerts/desktop-notification.png){ .screenshot loading=lazy }
-
-<figcaption>Windows or Mac notification</figcaption>
-</figure>
-
-<figure markdown="span">
-
-![Bell menu Log tab showing NVDA crossed down through 152.00](../../assets/images/desktop-charts/alerts/alert-log.png){ .screenshot loading=lazy }
-
-<figcaption>The bell menu's Log</figcaption>
-</figure>
-
-<figure markdown="span">
-
-![In-app pop-up: NVDA crossed down through 152.00, with Open chart](../../assets/images/desktop-charts/alerts/in-app-popup.png){ .screenshot loading=lazy }
-
-<figcaption>Pop-up in the app</figcaption>
-</figure>
-
-</div>
-
 ## Watchlist
 
 Click **+** to add symbols, and the ⋮ menu to choose columns: Last, Change,
