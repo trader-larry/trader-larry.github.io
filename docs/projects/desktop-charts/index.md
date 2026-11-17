@@ -1,14 +1,14 @@
 # Desktop Charts
 
 A TradingView-style charting app that runs on your own computer and opens in
-your web browser. Up to eight charts on one screen, volume profile and TPO,
+your web browser. Up to 24 charts per window, extra windows for more screens, volume profile and TPO,
 anchored VWAP, drawing tools, price alerts and watchlists, with live market data from your
 tastytrade account. Without an account it runs on demo data, so anyone can try it.
 
 [:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/desktop-charts){ .md-button .md-button--primary }
 [:material-rocket-launch: Get started](getting-started.md){ .md-button }
 
-![Desktop Charts with four 5-minute charts (SPY, QQQ, IWM and AAPL), each with a visible-range volume profile, and the watchlist on the right](../../assets/images/desktop-charts/overview.webp){ .screenshot }
+![Desktop Charts with four 5-minute charts (SPY, QQQ, IWM and AAPL), each with a visible-range volume profile and a ticker watermark, and the watchlist with its Ext column on the right](../../assets/images/desktop-charts/overview.webp){ .screenshot }
 
 ## Why I built it
 
@@ -33,8 +33,11 @@ machine, and only ever reads market data.
 
 ## Highlights
 
-- **Multi-chart layouts:** 1, 2, 3, 4, 6 or 8 charts, each with its own symbol,
-  timeframe and indicators, with optional symbol, interval, crosshair and date sync.
+- **Multi-chart layouts:** 1, 2, 3, 4, 6, 8, 12 or 24 charts, each with its own
+  symbol, timeframe and indicators, with optional symbol, interval, crosshair and
+  date sync.
+- **Extra windows:** open more chart windows, for example one per monitor,
+  sharing your watchlists, drawings and alerts.
 - **Volume profile and TPO:** visible range, session and fixed range profiles
   with POC, VAH and VAL, plus a TPO (Market Profile) with initial balance.
 - **Anchored VWAP:** click any bar to anchor it, with optional bands.

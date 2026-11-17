@@ -60,6 +60,13 @@ command window open while you chart.
 !!! tip "Prefer a normal browser tab?"
     Open the start script in a text editor and set `APPWINDOW=0` near the top.
 
+### Optional: install it as an app
+
+Open <http://localhost:8787> in a normal Chrome or Edge tab, then choose
+**Install** from the browser menu. You get a Start-menu shortcut and dark title
+bars, and from then on `start-windows.bat` opens the installed app instead of a
+separate window.
+
 !!! tip "Try it without an account"
     Until you add tastytrade keys, the app runs on generated demo data. To force
     demo data even when keys are set, start it with `node server.js --demo`.
@@ -98,7 +105,9 @@ Click the symbol at the top left of a chart, or just start typing on the chart.
 
 ## 5. Stop it
 
-Close the command window, or press ++ctrl+c++ in it.
+Close the command window, or press ++ctrl+c++ in it (on Windows, answer **Y** if
+it asks "Terminate batch job"). The command window shows the same reminder when
+it starts.
 
 ## Options
 

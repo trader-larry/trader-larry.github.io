@@ -33,6 +33,12 @@
     remembers its size and position. To use a normal tab instead, set
     `APPWINDOW=0` near the top of `start-windows.bat` or `start-mac.command`.
 
+??? question "Can I use it on two monitors?"
+    Yes. Open the layout menu and choose **Windows → + New window**, then drag
+    the new window to the other screen. Each window has its own charts and
+    layout, and they share watchlists, drawings, alerts and settings. If nothing
+    opens, allow pop-ups for `localhost` in your browser.
+
 ??? question "Do price alerts work when the app is closed?"
     No. Alerts are checked by the app while it's open; it can be minimized or in
     the background. Allow notifications when your browser asks, so a Windows or

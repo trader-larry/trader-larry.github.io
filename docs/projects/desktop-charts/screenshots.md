@@ -1,13 +1,31 @@
 # Screenshots
 
-All screenshots use the built-in demo data, so the prices are synthetic.
+Most screenshots use the built-in demo data, so the prices are synthetic. The
+three-window screenshot shows live tastytrade data.
 
 ## Four-chart layout
 
 SPY, QQQ, IWM and AAPL on 5-minute charts, each with a visible-range volume
-profile, POC and value area, next to the watchlist.
+profile, POC and value area, ticker watermarks and shaded extended hours, next
+to the watchlist.
 
-![Four 5-minute charts (SPY, QQQ, IWM, AAPL) with volume profiles and the watchlist](../../assets/images/desktop-charts/overview.webp){ .screenshot loading=lazy }
+![Four 5-minute charts (SPY, QQQ, IWM, AAPL) with volume profiles, ticker watermarks and the watchlist](../../assets/images/desktop-charts/overview.webp){ .screenshot loading=lazy }
+
+## Twelve-chart layout
+
+Twelve 5-minute charts in the 6 × 2 layout, with the watchlist hidden to give
+the charts more room.
+
+![Twelve 5-minute charts in a 6 × 2 layout with volume profiles and the watchlist hidden](../../assets/images/desktop-charts/9-layout-12.webp){ .screenshot loading=lazy }
+
+## Three windows with live data
+
+Three chart windows on live tastytrade data: twelve 1-minute charts on top, a
+"4 Same Symbol" layout of SCHD across four timeframes with a "Dividend Tickers"
+watchlist, and a single GOOGL daily chart with a volume profile. Each watermark
+shows the ticker with the company name below it.
+
+![Three Desktop Charts windows: twelve 1-minute charts, four SCHD charts on different timeframes with a dividend watchlist, and a GOOGL daily chart with a volume profile](../../assets/images/desktop-charts/11-three-windows.webp){ .screenshot loading=lazy }
 
 ## Price alerts
 
@@ -25,9 +43,10 @@ watchlist's Ext column shows the extended-hours change.
 
 ## Watermark
 
-A large, faint symbol, timeframe and description behind each chart.
+A large, faint ticker behind each chart. With live data the company name
+appears below it.
 
-![NVDA daily and /ES 5-minute charts with faint symbol watermarks](../../assets/images/desktop-charts/3-watermark.webp){ .screenshot loading=lazy }
+![NVDA daily chart with a large faint NVDA watermark behind the candles](../../assets/images/desktop-charts/3-watermark.webp){ .screenshot loading=lazy }
 
 ## Saved image
 
@@ -54,3 +73,9 @@ the selected symbol at the bottom.
 Click the watchlist's name to switch lists, or to create, copy or rename one.
 
 ![Watchlist menu with Create new list, Make a copy, Rename, and the lists Earnings week, Futures and Watchlist](../../assets/images/desktop-charts/8-watchlists.webp){ .screenshot loading=lazy width="320" }
+
+## Display settings
+
+Chart background colour and chart padding in Settings → Display.
+
+![Display settings with time zone, extended-hours shading, watermark, grid, chart background colour and chart padding](../../assets/images/desktop-charts/10-display-settings.webp){ .screenshot loading=lazy width="520" }
