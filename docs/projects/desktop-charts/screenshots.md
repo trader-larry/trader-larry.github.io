@@ -1,6 +1,7 @@
 # Screenshots
 
-All screenshots use the built-in demo data, so the prices are synthetic.
+Most screenshots use the built-in demo data, so the prices are synthetic. The
+three-window screenshot shows live tastytrade data.
 
 ## Four-chart layout
 
@@ -16,6 +17,15 @@ Twelve 5-minute charts in the 6 × 2 layout, with the watchlist hidden to give
 the charts more room.
 
 ![Twelve 5-minute charts in a 6 × 2 layout with volume profiles and the watchlist hidden](../../assets/images/desktop-charts/9-layout-12.webp){ .screenshot loading=lazy }
+
+## Three windows with live data
+
+Three chart windows on live tastytrade data: twelve 1-minute charts on top, a
+"4 Same Symbol" layout of SCHD across four timeframes with a "Dividend Tickers"
+watchlist, and a single GOOGL daily chart with a volume profile. Each watermark
+shows the ticker with the company name below it.
+
+![Three Desktop Charts windows: twelve 1-minute charts, four SCHD charts on different timeframes with a dividend watchlist, and a GOOGL daily chart with a volume profile](../../assets/images/desktop-charts/11-three-windows.webp){ .screenshot loading=lazy }
 
 ## Price alerts
 

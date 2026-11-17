@@ -41,6 +41,8 @@ Extra windows reopen with the main window at their last size and position, and
 closing the main window closes the others. Rename or delete them from the same
 menu. The first time, allow pop-ups for `localhost` when your browser asks.
 
+![Three Desktop Charts windows: twelve 1-minute charts, four SCHD charts on different timeframes, and a GOOGL daily chart](../../assets/images/desktop-charts/11-three-windows.webp){ .screenshot loading=lazy }
+
 ## Volume profile and TPO
 
 | Tool | What it shows |
