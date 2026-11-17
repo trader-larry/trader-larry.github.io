@@ -1,9 +1,11 @@
 {
-  // When you paste or drag an image into a blog post, VS Code copies it here
+  // When you paste or drag an image into a page, VS Code copies it here
   // and writes the Markdown image line for you.
+  // Project pages: images go in a folder named after the project's folder,
+  // e.g. docs/projects/desktop-charts/ -> docs/assets/images/desktop-charts/
   "markdown.copyFiles.destination": {
     "docs/blog/posts/**": "${documentWorkspaceFolder}/docs/assets/images/blog/${fileName}",
-    "docs/projects/**": "${documentWorkspaceFolder}/docs/assets/images/${fileName}"
+    "docs/projects/**": "${documentWorkspaceFolder}/docs/assets/images/${documentDirName}/${fileName}"
   },
   "markdown.copyFiles.overwriteBehavior": "nameIncrementally",
   "files.trimTrailingWhitespace": false
