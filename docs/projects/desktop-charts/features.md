@@ -110,6 +110,9 @@ alert, where you can edit, stop, restart or delete them, and turn the sound off.
     Alerts are checked while the app is running (it can be in the background).
     For stocks outside regular hours they use the pre-market or after-hours price.
 
+![chart price alert](../../assets/images/image.png) ![alt text](<../../assets/images/Screenshot 2026-11-17 151151.png>)
+![alt text](<../../assets/images/Screenshot 2026-11-17 151136.png>) ![alt text](<../../assets/images/Screenshot 2026-11-17 151117.png>)
+
 ## Watchlist
 
 Click **+** to add symbols, and the ⋮ menu to choose columns: Last, Change,
