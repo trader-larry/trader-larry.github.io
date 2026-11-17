@@ -110,7 +110,7 @@ alert, where you can edit, stop, restart or delete them, and turn the sound off.
     Alerts are checked while the app is running (it can be in the background).
     For stocks outside regular hours they use the pre-market or after-hours price.
 
-![Price Alerts](<../../assets/images/c:/Users/larry/Documents/Claude Projects/trader-larry.github.io/docs/projects/desktop-charts/Screenshot 2026-11-17 154347.png>)
+![alt text](<../../assets/images/desktop-charts/Screenshot 2026-11-17 154347.png>)
 
 <div class="image-grid" markdown>
 
