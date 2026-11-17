@@ -15,8 +15,9 @@ timeframes), so a 1m chart still has several sessions on a Monday morning.
 
 ## Multi-chart layouts
 
-The layout button (grid icon, top right) splits the screen into 1, 2, 3, 4, 6 or
-8 charts. Each chart keeps its own symbol, timeframe, chart type and indicators.
+The layout button (grid icon, top right) splits the screen into 1, 2, 3, 4, 6,
+8, 12 (6 × 2) or 24 (12 × 2) charts. Each chart keeps its own symbol, timeframe,
+chart type and indicators.
 
 - Click a chart to make it active (blue outline). The top bar, drawing tools and
   watchlist act on the active chart.
@@ -24,7 +25,21 @@ The layout button (grid icon, top right) splits the screen into 1, 2, 3, 4, 6 or
 - ++tab++ / ++shift+tab++ cycles through charts, and ++alt+enter++ (or the arrows
   icon in a chart's legend) maximizes one chart and restores the layout.
 - **Sync** options in the layout menu: symbol, interval, crosshair (on by
-  default) and date range.
+  default) and date range. Date-range sync lines charts up by their left edge,
+  and when the active chart is at the latest bar, every chart ends at its latest
+  bar.
+
+## Extra windows
+
+Open the layout menu, then **Windows → + New window** for another app window,
+for example on a second monitor. Each window has its own charts, layout and
+choice of watchlist (pick it from the watchlist's name). Watchlists, drawings,
+alerts, saved layouts and settings are shared and stay in sync between open
+windows, and only one window fires each alert.
+
+Extra windows reopen with the main window at their last size and position, and
+closing the main window closes the others. Rename or delete them from the same
+menu. The first time, allow pop-ups for `localhost` when your browser asks.
 
 ## Volume profile and TPO
 
@@ -59,6 +74,9 @@ Favorites. Hover a legend row to hide, edit or remove an indicator.
 Bands and the anchor time are in its settings.
 
 ## Drawing tools
+
+The toolbar on the left scrolls without a scrollbar: when the window is too
+short to show every tool, small up and down arrows appear at its ends.
 
 Trend line, ray, horizontal line and ray, vertical line, rectangle, circle, fib
 retracement, text and a measure tool. Click a drawing to select it, drag to move
@@ -100,6 +118,10 @@ Change %, Volume and **Ext**, the pre-market or after-hours change for stocks
 copy, rename it, switch between lists, or delete one (× on hover). For example,
 keep a "Futures" list next to an "Earnings week" list.
 
+**Hide it for more room:** click **»** in the watchlist header, or the list
+button at the top right. The list button or the tab at the right edge of the
+charts brings it back. Each window remembers whether its watchlist is shown.
+
 ## Extended hours
 
 The **RTH / ETH** button in the status bar switches stock charts between regular
@@ -113,11 +135,18 @@ symbol, timeframe and indicators. **Save layout** (++ctrl+s++), **Save as new
 layout**, **Rename**, and a list of saved layouts to switch between. A dot after
 the name means unsaved changes.
 
+## Display settings
+
+**Settings → Display** has the chart **background colour** and the **chart
+padding**: space above and below the candles (in %) and to the right of the
+last bar (in bars). Each has a **Default** button to put it back. The right
+padding is kept when you switch timeframes.
+
 ## Other touches
 
 - **Save image:** the camera icon saves the active chart as a PNG.
-- **Watermark:** a large, faint symbol, timeframe and description behind each
-  chart (Settings → Display).
+- **Watermark:** a large, faint ticker with the company name below it, behind
+  each chart (Settings → Display).
 - **Time zone:** status bar button or Settings.
 - Everything (layout, watchlist, drawings, settings) is remembered in your
   browser for next time.
