@@ -50,6 +50,21 @@ ex-dividend list and calendar, the overlap panels and the detail view. The
 
 ## Tabs
 
+### Price & fund
+
+Price and day change, the 52-week range with a marker for where the price
+sits, 12-month price return and total return (dividends reinvested), core
+focus, expense ratio and payout frequency.
+
+### Dividends & income
+
+Trailing (TTM) and forward yield, distribution type (marked *est.* when it's
+guessed from the fund's category), the last payment with its amount and date,
+and the next ex-dividend date (marked *est.* when it's projected rather than
+announced). For your position: market value and shares, percent of your
+portfolio with a small bar, income per year and per month, and yield on cost.
+Symbols with no shares show as *watch*.
+
 ### Strategy & overlap
 
 Each holding's underlying exposure (Nasdaq-100, S&P 500 and so on) and options
