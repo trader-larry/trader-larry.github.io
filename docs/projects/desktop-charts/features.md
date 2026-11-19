@@ -3,8 +3,9 @@
 ## Charts and timeframes
 
 Candles on a dark, TradingView-style chart with 1m, 2m, 5m, 15m, 30m, 1h, daily
-and weekly timeframes. The legend shows open, high, low, close and change for
-the bar under the crosshair.
+and weekly timeframes. The chart type button next to the timeframes switches a
+chart between candles, bars, line and area. The legend shows open, high, low,
+close and change for the bar under the crosshair.
 
 Each chart remembers its zoom and scroll for every timeframe, so it reopens
 showing the same span you left it on. **Alt+R** (or the corners icon) puts it
@@ -69,11 +70,27 @@ Favorites. Hover a legend row to hide, edit or remove an indicator.
 - Bollinger Bands
 - VWAP (session) and Anchored VWAP
 - Key levels: previous session high, low and close, and today's open
+- SPX Levels (XSP): the day's posted SPX levels
 - RSI, MACD and Average True Range in their own panes
 - Volume
 
 **Anchored VWAP:** pick the anchor tool in the left toolbar, then click a bar.
 Bands and the anchor time are in its settings.
+
+**Defaults:** the **Defaults** menu in an indicator's settings has **Apply to
+all charts** (use these settings for that indicator on every chart), **Save as
+default** (use them whenever you add it from now on) and **Reset to default**.
+
+### SPX Levels (XSP)
+
+Type the day's posted SPX levels into the indicator's settings: call trigger
+and stop, put trigger and stop, and three levels up (UT1 to UT3) and down (DT1
+to DT3). Leave a level at 0 to hide it. On an XSP chart the levels are divided
+by 10 automatically, and on SPX they draw as posted (or pick XSP or SPX
+yourself). The lines cover the latest session only. Use **Defaults → Apply to
+all charts** to update every chart at once.
+
+![SPX 5-minute chart with the SPX Levels indicator: green UT1 to UT3 lines above, orange call and put triggers, grey dashed stops, and red DT1 to DT3 lines below](../../assets/images/desktop-charts/12-spx-levels.webp){ .screenshot loading=lazy }
 
 ## Drawing tools
 
@@ -116,6 +133,11 @@ Click **+** to add symbols, and the ⋮ menu to choose columns: Last, Change,
 Change %, Volume and **Ext**, the pre-market or after-hours change for stocks
 (hover it for the price). Click a symbol to load it in the active chart.
 
+**Sort it:** click a column heading to sort by it (numbers high to low first,
+Symbol A to Z), click again to flip the order, and a third time to go back to
+the list's own order. Only the view is sorted, so your saved order doesn't
+change. Number columns re-sort as prices move, and the choice is remembered.
+
 **Several watchlists:** click the watchlist's name to create a new list, make a
 copy, rename it, switch between lists, or delete one (× on hover). For example,
 keep a "Futures" list next to an "Earnings week" list.
@@ -143,6 +165,11 @@ the name means unsaved changes.
 padding**: space above and below the candles (in %) and to the right of the
 last bar (in bars). Each has a **Default** button to put it back. The right
 padding is kept when you switch timeframes.
+
+**Use the chart background for the whole app** (on by default) gives the
+toolbars, watchlist and status bar the chart's colour, with panels and borders
+shaded to match. It applies to dark colours; with a light chart background the
+rest of the app keeps its default dark look so the text stays readable.
 
 ## Other touches
 

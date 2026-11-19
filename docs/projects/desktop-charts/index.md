@@ -41,12 +41,14 @@ machine, and only ever reads market data.
 - **Volume profile and TPO:** visible range, session and fixed range profiles
   with POC, VAH and VAL, plus a TPO (Market Profile) with initial balance.
 - **Anchored VWAP:** click any bar to anchor it, with optional bands.
+- **SPX Levels:** type in the day's posted SPX levels and see them on SPX or XSP
+  charts (divided by 10 on XSP).
 - **Drawing tools:** trend lines, rays, horizontal lines, rectangles, fib
   retracements, text and a measure tool, saved per symbol.
 - **Price alerts:** right-click a chart or press Alt+A, and get a chime, a pop-up
   and a desktop notification when price crosses your level.
 - **Watchlists:** as many named lists as you like, with last, change, volume and
-  pre-market / after-hours change for stocks.
+  pre-market / after-hours change for stocks, sortable by any column.
 - **Saved layouts:** keep a "Scalping" and a "Swing" setup and switch between them.
 
 See the full [feature tour](features.md) or the [screenshots](screenshots.md).
