@@ -50,7 +50,6 @@ Look up any symbol, held or not.
 
 ![Research tab: Look up any symbol, held or not](../../assets/images/dividend-dashboard/7-research.webp){ .screenshot loading=lazy }
 
-
 ## Planning
 
 A what-if plan across two accounts, with income by month compared with your portfolio now.
