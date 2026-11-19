@@ -62,6 +62,8 @@ plain-English glossary of the strategies.
 
 Quantity, average cost, current price, total cost, market value, unrealized
 gain or loss ($ and %), portfolio weight, income and yield on cost, with totals.
+**Holdings by size**, above the table, lists every position by market value and
+share of the portfolio, largest first, with a stacked bar on top.
 
 ### Monthly projections
 
@@ -83,6 +85,32 @@ return, yield, volatility, max drawdown and the period's low and high.
 Look up any single symbol: price, headline numbers, the same chart and stats as
 Symbol comparison, and everything from the detail view. **+ Compare** sends it
 to the comparison tab.
+
+### Planning
+
+Try what-if allocations without touching your holdings. A plan has one or more
+accounts (a new plan starts with Taxable brokerage, Traditional IRA and Roth
+IRA; rename, add or remove them), each with a balance and a list of symbols.
+Type any ticker, held or not (several at once, separated by commas), or add
+your current holdings with one click.
+
+For each symbol, set a weight % or a dollar amount. The row shows distribution
+type, payout frequency, yield (forward or TTM, or type your own), expense ratio,
+income per year and per month, and what you hold in it now. Each account checks
+that its weights add up to 100%, and **Spread evenly** splits it equally.
+Expense ratio is for reference only: fund yields are already paid after fees,
+so it isn't subtracted again.
+
+The top of the tab totals the plan: amount invested, annual and monthly income,
+blended yield, weighted expense ratio and the difference from your portfolio
+now, with charts of income by month (plan vs. now), by distribution type and by
+account. **Start from my holdings** loads what you own at today's weights, so
+you can try a rebalance.
+
+**Save** keeps the plan as a named scenario in `<holdings file name>-plans.json`
+next to your holdings file, so it travels with it through a shared cloud folder.
+**Save as new** makes a copy, and the **Saved scenarios** table compares them
+all against your portfolio now.
 
 ## Using it on more than one computer
 

@@ -38,6 +38,9 @@ paid API key. This one keeps my holdings on my own machine.
   how much your funds' top holdings overlap.
 - **Symbol comparison and Research:** compare up to 10 tickers over 1M to Max,
   or look up any symbol you don't own yet.
+- **Planning:** try what-if allocations across taxable and retirement accounts,
+  see the income they'd pay by month, and save them as scenarios to compare
+  against what you own now.
 - **Warning flags:** very high yield, recent dividend cut, possible NAV decay,
   high expense ratio and erratic payouts.
 - **Works across computers:** share one holdings file through a cloud folder, or

@@ -13,6 +13,11 @@
     your holdings never leave it. Keep a copy somewhere safe and don't include it
     if you share the dashboard.
 
+??? question "Where are my Planning scenarios saved?"
+    In `holdings-plans.json` (named after your holdings file) in the same folder
+    as your holdings file. If that file is in a shared cloud folder, your saved
+    scenarios sync along with it. Planning never changes your holdings.
+
 ??? question "`python` is not recognized"
     Python isn't installed or wasn't added to PATH. Reinstall it and tick
     **Add python.exe to PATH** on the first screen.
