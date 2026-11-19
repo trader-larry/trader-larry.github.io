@@ -74,8 +74,29 @@ Click the watchlist's name to switch lists, or to create, copy or rename one.
 
 ![Watchlist menu with Create new list, Make a copy, Rename, and the lists Earnings week, Futures and Watchlist](../../assets/images/desktop-charts/8-watchlists.webp){ .screenshot loading=lazy width="320" }
 
+## Sorted watchlist
+
+The watchlist sorted by Chg% from high to low. Click a column heading to sort.
+
+![Watchlist sorted by Chg% from high to low, with a down arrow next to the Chg% heading](../../assets/images/desktop-charts/14-watchlist-sort.webp){ .screenshot loading=lazy width="320" }
+
+## SPX Levels
+
+The SPX Levels (XSP) indicator on an SPX 5-minute chart, with the day's levels
+up (UT), down (DT), and the call and put triggers and stops.
+
+![SPX 5-minute chart with the SPX Levels indicator: green UT1 to UT3 lines above, orange call and put triggers, grey dashed stops, and red DT1 to DT3 lines below](../../assets/images/desktop-charts/12-spx-levels.webp){ .screenshot loading=lazy }
+
+## Matching app background
+
+A dark navy chart background carried through the toolbars, watchlist and
+status bar.
+
+![Desktop Charts with a dark navy chart background carried through the toolbars, watchlist and status bar](../../assets/images/desktop-charts/13-app-background.webp){ .screenshot loading=lazy }
+
 ## Display settings
 
-Chart background colour and chart padding in Settings → Display.
+Chart background colour, the option to use it for the whole app, and chart
+padding in Settings → Display.
 
-![Display settings with time zone, extended-hours shading, watermark, grid, chart background colour and chart padding](../../assets/images/desktop-charts/10-display-settings.webp){ .screenshot loading=lazy width="520" }
+![Display settings with time zone, extended-hours shading, watermark, grid, chart background colour, the whole-app background option and chart padding](../../assets/images/desktop-charts/10-display-settings.webp){ .screenshot loading=lazy width="520" }
