@@ -12,7 +12,7 @@ I've published the first version of my
 [Dividend Dashboard](../../projects/dividend-dashboard/index.md): a local, no-account
 dashboard for dividend ETFs, funds and stocks.
 
-<!-- more -->
+((more))
 
 It started as a script for my own holdings and grew into a full page with income
 projections, an ex-dividend calendar, fund overlap, symbol comparison and a

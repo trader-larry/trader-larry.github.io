@@ -12,7 +12,7 @@ I've published [Desktop Charts](../../projects/desktop-charts/index.md): a
 TradingView-style charting app that runs on your own computer, with live data
 from tastytrade.
 
-<!-- more -->
+((more))
 
 I wanted volume profile, several symbols side by side and futures next to
 stocks, without another charting subscription. The app runs locally on Node.js,

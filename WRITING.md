@@ -23,10 +23,11 @@ Good to know:
 
 - If you also use VS Code, click **Sync Changes** there before you start, so you
   pick up posts you saved in Pages CMS.
-- The two posts from November 15 use a "read more" break and a GitHub button that
-  the visual editor doesn't keep. Edit those in VS Code instead.
-- Without a "read more" break, the blog's front page shows the whole post, like
-  Blogger does by default.
+- **"Continue reading" break:** type `((more))` on a line by itself. Everything
+  above it shows on the blog's front page, followed by a **Continue reading** link.
+  The line itself is hidden on the full post. Without it, the whole post shows.
+- The two posts from November 15 have a GitHub button that the visual editor
+  doesn't keep. Edit those in VS Code instead.
 
 ## Your usual routine (VS Code)
 
@@ -113,7 +114,7 @@ draft: true
 
 One or two sentences that sum up the post. This part shows on the blog's front page.
 
-<!-- more -->
+((more))
 
 The rest of the post...
 ```
@@ -122,7 +123,7 @@ The rest of the post...
 - **categories:** any name you like, e.g. `Trading`, `Options`, `Dividend Dashboard`.
   A new name automatically gets its own category page. You can list more than one.
 - **draft: true:** keeps the post off the live site. Delete that line when it's ready.
-- **`<!-- more -->`:** everything above it is the teaser on the blog's front page.
+- **`((more))`:** everything above it is the teaser on the blog's front page.
 
 ### 3. Add pictures (optional)
 

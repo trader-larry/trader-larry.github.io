@@ -11,7 +11,7 @@ draft: true
 
 One or two sentences that sum up the post. This part shows on the blog's front page.
 
-<!-- more -->
+((more))
 
 ## First section
 
