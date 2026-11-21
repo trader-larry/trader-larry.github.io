@@ -1,0 +1,67 @@
+# Pages CMS settings (https://pagescms.org). Sign in at https://app.pagescms.org
+# to write blog posts in a visual editor. Saving a post commits it to this repo,
+# and the site republishes about a minute later, same as a push from VS Code.
+
+media:
+  # Every image on the site lives under docs/assets/images. Posts sit two
+  # folders down (docs/blog/posts), so image links start with ../../assets/images.
+  input: docs/assets/images
+  output: ../../assets/images
+  rename: safe        # "My Chart.PNG" -> "my-chart.png", so links never break
+  categories: [image]
+
+content:
+  - name: posts
+    label: Blog posts
+    type: collection
+    path: docs/blog/posts
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      primary: title
+      fields: [title, date, categories, draft]
+      sort: [date, title]
+      search: [title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: categories
+        label: Categories
+        type: select
+        description: Pick one or more.
+        options:
+          multiple: true
+          values:
+            - Trading
+            - Options
+            - Stocks
+            - Projects
+            - Desktop Charts
+            - Dividend Dashboard
+      - name: draft
+        label: Draft (hidden from the site until you untick this)
+        type: boolean
+        default: false
+      - name: authors
+        label: Authors
+        type: select
+        hidden: true
+        default: [larry]
+        options:
+          multiple: true
+          values: [larry]
+      - name: body
+        label: Post
+        type: rich-text
+        options:
+          switcher: false       # visual editor only, no Markdown view
+          path: docs/assets/images/blog

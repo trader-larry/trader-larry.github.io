@@ -68,6 +68,9 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
+  - pymdownx.tilde          # ~~strikethrough~~ from the Pages CMS editor
+  - mdx_truly_sane_lists:    # sub-bullets indented by 2 spaces (Pages CMS writes them that way)
+      truly_sane: false      # (so grid-card content is indented 2 spaces too, see docs/index.md)
   - pymdownx.keys            # ++ctrl+c++ keyboard keys
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji

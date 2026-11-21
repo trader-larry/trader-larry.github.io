@@ -1,3 +1,5 @@
 # Zensical is the successor to Material for MkDocs (which reaches end of life
 # on May 5, 2027). It reads this project's mkdocs.yml as-is.
 zensical
+# Lets sub-bullets written by the Pages CMS editor (2-space indent) nest properly.
+mdx_truly_sane_lists
