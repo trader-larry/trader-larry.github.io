@@ -15,25 +15,25 @@ examples with screenshots, answers to common questions, and notes on what's chan
 
 <div class="grid cards" markdown>
 
--   :material-chart-line:{ .lg .middle } **Dividend Dashboard**
+- :material-chart-line:{ .lg .middle } **Dividend Dashboard**
 
-    ---
+  ---
 
-    A local dashboard for dividend ETFs, funds and stocks: income projections,
-    ex-dividend calendar, overlap between funds and side-by-side comparisons.
-    Free Yahoo Finance data, no API key, standard library only.
+  A local dashboard for dividend ETFs, funds and stocks: income projections,
+  ex-dividend calendar, overlap between funds and side-by-side comparisons.
+  Free Yahoo Finance data, no API key, standard library only.
 
-    [:octicons-arrow-right-24: Read more](projects/dividend-dashboard/index.md)
+  [:octicons-arrow-right-24: Read more](projects/dividend-dashboard/index.md)
 
--   :material-chart-box-outline:{ .lg .middle } **Desktop Charts**
+- :material-chart-box-outline:{ .lg .middle } **Desktop Charts**
 
-    ---
+  ---
 
-    TradingView-style charts that run on your own computer: up to eight charts,
-    volume profile and TPO, anchored VWAP, drawing tools and a watchlist.
-    Live tastytrade data, or demo data with no account.
+  TradingView-style charts that run on your own computer: up to eight charts,
+  volume profile and TPO, anchored VWAP, drawing tools and a watchlist.
+  Live tastytrade data, or demo data with no account.
 
-    [:octicons-arrow-right-24: Read more](projects/desktop-charts/index.md)
+  [:octicons-arrow-right-24: Read more](projects/desktop-charts/index.md)
 
 </div>
 

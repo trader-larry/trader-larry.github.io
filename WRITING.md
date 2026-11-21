@@ -4,6 +4,30 @@ A quick reference for updating traderlarry.com. Every change you push to the
 `main` branch republishes the site in about a minute. You can watch it happen in
 the repo's **Actions** tab (green check = live).
 
+## Easiest: write in Pages CMS (no Markdown)
+
+[Pages CMS](https://pagescms.org) gives you a Blogger-style editor in the browser.
+
+1. Go to **https://app.pagescms.org** and click **Sign in with GitHub**.
+2. The first time only: when asked, **install the Pages CMS GitHub app** and give
+   it access to **trader-larry.github.io**.
+3. Open **trader-larry.github.io** (branch **main**), then **Blog posts → Add an entry**.
+4. Fill in **Title**, **Date** and **Categories**. Leave **Draft** ticked if you
+   want to save it without publishing.
+5. Write the post in the big **Post** box. Use the toolbar (or type `/`) for
+   headings, lists, tables and images. **Drag a picture in** or paste a
+   screenshot: it's saved in `docs/assets/images/blog/` for you.
+6. Click **Save**. The site updates about a minute later.
+
+Good to know:
+
+- If you also use VS Code, click **Sync Changes** there before you start, so you
+  pick up posts you saved in Pages CMS.
+- The two posts from November 15 use a "read more" break and a GitHub button that
+  the visual editor doesn't keep. Edit those in VS Code instead.
+- Without a "read more" break, the blog's front page shows the whole post, like
+  Blogger does by default.
+
 ## Your usual routine (VS Code)
 
 This is the setup you already have working. Your site folder is cloned on your
