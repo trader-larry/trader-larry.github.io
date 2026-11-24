@@ -39,8 +39,10 @@ paid API key. This one keeps my holdings on my own machine.
 - **Symbol comparison and Research:** compare up to 10 tickers over 1M to Max,
   or look up any symbol you don't own yet.
 - **Planning:** try what-if allocations across taxable and retirement accounts,
-  see the income they'd pay by month, and save them as scenarios to compare
-  against what you own now.
+  lock exact dollar amounts and spread the rest, see the income they'd pay by
+  month, and save them as scenarios to compare against what you own now.
+- **Summary:** a one-page snapshot of the whole portfolio you can save as a PNG
+  or PDF, with an option to hide dollar amounts before you share it.
 - **Warning flags:** very high yield, recent dividend cut, possible NAV decay,
   high expense ratio and erratic payouts.
 - **Works across computers:** share one holdings file through a cloud folder, or

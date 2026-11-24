@@ -46,12 +46,18 @@ Up to 10 tickers compared over a chosen period.
 
 ## Research
 
-Look up any symbol, held or not.
+Look up any symbol, held or not, or click one of your holdings below the search box.
 
-![Research tab: Look up any symbol, held or not](../../assets/images/dividend-dashboard/7-research.webp){ .screenshot loading=lazy }
+![Research tab: Look up any symbol, held or not, or click one of your holdings below the search box](../../assets/images/dividend-dashboard/7-research.webp){ .screenshot loading=lazy }
 
 ## Planning
 
-A what-if plan across two accounts, with income by month compared with your portfolio now.
+A what-if plan across two accounts, with income by month compared with your portfolio now. SCHD is locked at $20,000 and the rest of the account is spread over the unlocked rows.
 
-![Planning tab: A what-if plan across two accounts, with income by month compared with your portfolio now](../../assets/images/dividend-dashboard/8-planning.webp){ .screenshot loading=lazy }
+![Planning tab: A what-if plan across two accounts, with income by month compared with your portfolio now, and one row locked at a dollar amount](../../assets/images/dividend-dashboard/8-planning.webp){ .screenshot loading=lazy }
+
+## Summary
+
+A one-page snapshot to save as a PNG or PDF: metric cards, 12-month income, income by payout frequency, allocation donuts, holdings by size and annual projection by holding.
+
+![Summary tab: Metric cards, 12-month income, income by payout frequency, allocation donuts, holdings by size and annual projection by holding](../../assets/images/dividend-dashboard/9-summary.webp){ .screenshot loading=lazy }

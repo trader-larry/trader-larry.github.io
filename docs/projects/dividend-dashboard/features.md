@@ -65,6 +65,10 @@ announced). For your position: market value and shares, percent of your
 portfolio with a small bar, income per year and per month, and yield on cost.
 Symbols with no shares show as *watch*.
 
+Money market funds (SPAXX, FDRXX and the like) are recognized automatically and
+classed as interest, taxed as ordinary income. Yahoo keeps no payout history for
+them, so their yield comes from Yahoo's current 7-day yield and is marked *7-day*.
+
 ### Strategy & overlap
 
 Each holding's underlying exposure (Nasdaq-100, S&P 500 and so on) and options
@@ -78,7 +82,8 @@ plain-English glossary of the strategies.
 Quantity, average cost, current price, total cost, market value, unrealized
 gain or loss ($ and %), portfolio weight, income and yield on cost, with totals.
 **Holdings by size**, above the table, lists every position by market value and
-share of the portfolio, largest first, with a stacked bar on top.
+share of the portfolio, largest first, with a stacked bar on top. Switch it
+between **$**, **%** or **Both**.
 
 ### Monthly projections
 
@@ -86,7 +91,7 @@ Projected income for each holding over the next 12 months, with monthly totals
 and a chart. Monthly and weekly payers count in every month; quarterly,
 semi-annual and annual payers repeat the month of their latest payment.
 **Annual projection by holding** splits the year's income into a stacked bar
-and a list, in dollars or percent.
+and a list, in **%**, **$** or **Both**.
 
 ### Symbol comparison
 
@@ -99,7 +104,8 @@ return, yield, volatility, max drawdown and the period's low and high.
 
 Look up any single symbol: price, headline numbers, the same chart and stats as
 Symbol comparison, and everything from the detail view. **+ Compare** sends it
-to the comparison tab.
+to the comparison tab. Badges for your holdings sit below the symbol box, so you
+can look one up with a single click; the one you're viewing is highlighted.
 
 ### Planning
 
@@ -113,6 +119,11 @@ For each symbol, set a weight % or a dollar amount. The row shows distribution
 type, payout frequency, yield (forward or TTM, or type your own), expense ratio,
 income per year and per month, and what you hold in it now. Each account checks
 that its weights add up to 100%, and **Spread evenly** splits it equally.
+
+To pin an exact dollar amount, type it in the row's Amount box and click its
+lock (🔒). A locked amount stays put when the balance changes, and the button
+becomes **Spread rest over unlocked**, which splits whatever the locked rows
+leave of the balance equally over the others. Locks are saved with the scenario.
 Expense ratio is for reference only: fund yields are already paid after fees,
 so it isn't subtracted again.
 
@@ -126,6 +137,22 @@ you can try a rebalance.
 next to your holdings file, so it travels with it through a shared cloud folder.
 **Save as new** makes a copy, and the **Saved scenarios** table compares them
 all against your portfolio now.
+
+### Summary
+
+A one-page snapshot of the whole portfolio to print or share, stamped with
+today's date. It shows metric cards (portfolio value, annual income, monthly
+average, current yield, yield on cost, total gain or loss and holdings), the
+next 12 months of projected income with the annual total, income by payout
+frequency (weekly, monthly, quarterly and so on), allocation donuts by holding
+and by core focus, **Holdings by size** and **Annual projection by holding**.
+Flagged holdings are highlighted in those panels.
+
+**Save as PNG** saves it as one image and **Download PDF** as a letter-size PDF,
+both in the theme you're using, made in the browser with no add-ons and no
+internet needed. **Hide $ amounts** swaps every dollar figure for $••• (the
+percentages stay), so you can post it without showing your balances; the
+exports follow it too.
 
 ## Using it on more than one computer
 
