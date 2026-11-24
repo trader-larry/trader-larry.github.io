@@ -41,6 +41,17 @@
     capital, bond funds pay interest). Check the fund's 19a-1 notices or your
     1099-DIV, then set it in Edit holdings.
 
+??? question "Why does my money market fund show a *7-day* yield?"
+    Yahoo keeps no payout history for money market funds (SPAXX, FDRXX and so
+    on), so there's nothing to work out a trailing or forward yield from. The
+    dashboard uses Yahoo's current 7-day yield instead, assumes monthly payments,
+    and classes the income as interest (ordinary income).
+
+??? question "Can I share a snapshot of my portfolio without showing my balances?"
+    Yes. On the **Summary** tab, tick **Hide $ amounts** and every dollar figure
+    becomes $••• while the percentages stay. **Save as PNG** and **Download PDF**
+    follow the setting.
+
 ??? question "Why are some ex-dividend or pay dates marked as estimates?"
     Yahoo announces at most one upcoming date per holding, often none for ETFs.
     The rest are estimated from the payment cadence and the holding's usual gap
