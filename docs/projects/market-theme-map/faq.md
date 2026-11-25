@@ -69,5 +69,7 @@
     before using it for anything else.
 
 ??? question "Is this investment advice?"
-    No. It's a market overview for information only. Data can be delayed or
-    wrong, so check anything important with your broker.
+    No. It's a market overview for information only, and that includes the
+    [live version](https://market-theme-map.onrender.com/). Prices come from
+    Yahoo Finance and can be delayed, wrong or unavailable, so check anything
+    important with your broker.

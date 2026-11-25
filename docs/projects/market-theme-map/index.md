@@ -10,10 +10,12 @@ analysts' fair value and the consensus rating.
 [:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/market-theme-map){ .md-button }
 [:material-rocket-launch: Get started](getting-started.md){ .md-button }
 
-!!! tip "The live version may take a minute to open"
-    It runs on Render's free plan, which sleeps when nobody has visited for a
-    while. The first visit after a break takes about a minute while it wakes
-    up and loads prices.
+!!! info "About the live version"
+    Prices come from Yahoo Finance's free data, so they may be delayed or
+    sometimes unavailable. Nothing shown is investment advice. It runs on
+    Render's free plan, which sleeps when nobody has visited for a while, so
+    the first visit after a break takes about a minute while it wakes up and
+    loads prices.
 
 ![Market Theme Map showing 25 theme tiles over one month, ranked by average move from Cloud & Software at the top left to Homebuilders at the bottom right, green for gains and red for losses](../../assets/images/market-theme-map/overview.webp){ .screenshot }
 
