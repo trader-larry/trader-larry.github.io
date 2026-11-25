@@ -30,4 +30,4 @@ What's in this first release:
 Next I'll write up how I use the Strategy & overlap tab to spot funds that hold
 the same stocks.
 
-[:fontawesome-brands-github: Get it on GitHub](https://github.com/trader-larry/dividend-dashboard){ .md-button }
+[:fontawesome-brands-github: Get it on GitHub](https://github.com/trader-larry/dividend-dashboard){ .md-button target=_blank rel=noopener }

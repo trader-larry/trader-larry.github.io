@@ -30,4 +30,4 @@ What's in this first release:
   including how to connect tastytrade
 - An MIT license
 
-[:fontawesome-brands-github: Get it on GitHub](https://github.com/trader-larry/desktop-charts){ .md-button }
+[:fontawesome-brands-github: Get it on GitHub](https://github.com/trader-larry/desktop-charts){ .md-button target=_blank rel=noopener }
