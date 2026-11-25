@@ -43,7 +43,8 @@ examples with screenshots, answers to common questions, and notes on what's chan
   homebuilders, with breadth, medians and analysts' fair value for each stock.
   Free Yahoo Finance data, no API key, standard library only.
 
-  [:octicons-arrow-right-24: Read more](projects/market-theme-map/index.md)
+  [:octicons-arrow-right-24: Read more](projects/market-theme-map/index.md) ·
+  [:material-play-circle: Try it live](https://market-theme-map.onrender.com/)
 
 </div>
 

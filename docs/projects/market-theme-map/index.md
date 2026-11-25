@@ -1,13 +1,19 @@
 # Market Theme Map
 
 A heatmap of the stock market grouped by investment theme, that runs on your own
-computer and opens in your web browser. Each tile is a theme, such as AI
+computer and opens in your web browser, or online on Render. Each tile is a theme, such as AI
 Semiconductors, Nuclear & Uranium or Homebuilders, colored by how its stocks
 moved. Click a theme to see its stocks, then click a stock for its chart, the
 analysts' fair value and the consensus rating.
 
-[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/market-theme-map){ .md-button .md-button--primary }
+[:material-play-circle: Try it live](https://market-theme-map.onrender.com/){ .md-button .md-button--primary }
+[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/market-theme-map){ .md-button }
 [:material-rocket-launch: Get started](getting-started.md){ .md-button }
+
+!!! tip "The live version may take a minute to open"
+    It runs on Render's free plan, which sleeps when nobody has visited for a
+    while. The first visit after a break takes about a minute while it wakes
+    up and loads prices.
 
 ![Market Theme Map showing 25 theme tiles over one month, ranked by average move from Cloud & Software at the top left to Homebuilders at the bottom right, green for gains and red for losses](../../assets/images/market-theme-map/overview.webp){ .screenshot }
 
@@ -24,10 +30,10 @@ needs no account or API key, and I can change the themes by editing one file.
 
 | | |
 |---|---|
-| **Runs on** | Windows, macOS, Linux (Python 3.10 or newer) |
+| **Runs on** | Windows, macOS, Linux (Python 3.10 or newer), or online on [Render](getting-started.md#host-it-on-render-optional)'s free plan |
 | **Data** | Free, delayed prices and analyst targets from Yahoo Finance, or built-in demo data |
 | **Themes** | 25 themes and about 180 stocks, all in one editable file, `themes.json` |
-| **Privacy** | Runs at `http://localhost:8050` and only listens on your own computer |
+| **Privacy** | At home it runs at `http://localhost:8050` and only listens on your own computer; online you can protect it with a password |
 | **Account access** | None: no login, no API key, no broker connection |
 | **Dependencies** | None: Python's standard library plus one HTML page, nothing to `pip install` |
 | **License** | MIT |
