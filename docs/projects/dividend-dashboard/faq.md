@@ -23,7 +23,7 @@
     **Add python.exe to PATH** on the first screen.
 
 ??? question "The browser doesn't open"
-    Open <http://127.0.0.1:8765> yourself.
+    Open [http://127.0.0.1:8765](http://127.0.0.1:8765){ target=_blank rel=noopener } yourself.
 
 ??? question "It says \"Address already in use\""
     It's already running in another window. Stop it first, or start it on another

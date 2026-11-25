@@ -26,7 +26,7 @@
     and open a new window.
 
 ??? question "The browser doesn't open"
-    Open <http://localhost:8787> yourself.
+    Open [http://localhost:8787](http://localhost:8787){ target=_blank rel=noopener } yourself.
 
 ??? question "Why does it open in a window without tabs or an address bar?"
     The start scripts open the app in a Chrome or Edge app window, which

@@ -28,7 +28,7 @@ node --version   # should be v18 or higher
 
 ## 2. Download and start the app
 
-1. Open the [GitHub repo](https://github.com/trader-larry/desktop-charts),
+1. Open the [GitHub repo](https://github.com/trader-larry/desktop-charts){ target=_blank rel=noopener },
    click the green **Code** button, then **Download ZIP**.
 2. Unzip it (Windows: right-click → **Extract All**; Mac: double-click) and move
    the folder wherever you like.
@@ -52,7 +52,7 @@ node --version   # should be v18 or higher
     node server.js
     ```
 
-The charts open at <http://localhost:8787> in their own Chrome or Edge app
+The charts open at [http://localhost:8787](http://localhost:8787){ target=_blank rel=noopener } in their own Chrome or Edge app
 window (no tabs or address bar), which remembers its size and position. If
 neither browser is installed, your default browser opens instead. Leave the
 command window open while you chart.
@@ -62,7 +62,7 @@ command window open while you chart.
 
 ### Optional: install it as an app
 
-Open <http://localhost:8787> in a normal Chrome or Edge tab, then choose
+Open [http://localhost:8787](http://localhost:8787){ target=_blank rel=noopener } in a normal Chrome or Edge tab, then choose
 **Install** from the browser menu. You get a Start-menu shortcut and dark title
 bars, and from then on `start-windows.bat` opens the installed app instead of a
 separate window.

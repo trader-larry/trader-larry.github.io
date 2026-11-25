@@ -28,7 +28,7 @@ python --version   # should be 3.10 or higher (on Mac and Linux: python3)
 
 ## 2. Download and start the app
 
-1. Open the [GitHub repo](https://github.com/trader-larry/market-theme-map),
+1. Open the [GitHub repo](https://github.com/trader-larry/market-theme-map){ target=_blank rel=noopener },
    click the green **Code** button, then **Download ZIP**.
 2. Unzip it (Windows: right-click → **Extract All**; Mac: double-click) and move
    the folder wherever you like.
@@ -50,7 +50,7 @@ python --version   # should be 3.10 or higher (on Mac and Linux: python3)
     ```
 
 The first load downloads 14 months of prices for every stock, which takes 10 to
-30 seconds. Your browser then opens <http://localhost:8050>. Leave the command
+30 seconds. Your browser then opens [http://localhost:8050](http://localhost:8050){ target=_blank rel=noopener }. Leave the command
 window open while you use it.
 
 !!! tip "Try it offline"
@@ -96,7 +96,7 @@ You can also put the app online, so it opens on your phone or any computer.
 The repo includes a `render.yaml` that sets it up on Render's free plan.
 
 1. Sign up at [render.com](https://render.com) with your GitHub account.
-2. **Fork** the [repo](https://github.com/trader-larry/market-theme-map) on
+2. **Fork** the [repo](https://github.com/trader-larry/market-theme-map){ target=_blank rel=noopener } on
    GitHub, so you have your own copy for Render to use.
 3. In Render, click **New**, then **Blueprint**, and pick your copy. Give Render
    access to it if asked.

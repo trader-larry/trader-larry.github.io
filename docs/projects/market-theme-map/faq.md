@@ -19,7 +19,7 @@
     `run.bat` also tries the `py` launcher, which the Windows installer adds.
 
 ??? question "The browser doesn't open"
-    Open <http://localhost:8050> yourself. The first load takes 10 to 30
+    Open [http://localhost:8050](http://localhost:8050){ target=_blank rel=noopener } yourself. The first load takes 10 to 30
     seconds while it downloads prices.
 
 ??? question "It says the port is busy"
@@ -70,6 +70,6 @@
 
 ??? question "Is this investment advice?"
     No. It's a market overview for information only, and that includes the
-    [live version](https://market-theme-map.onrender.com/). Prices come from
+    [live version](https://market-theme-map.onrender.com/){ target=_blank rel=noopener }. Prices come from
     Yahoo Finance and can be delayed, wrong or unavailable, so check anything
     important with your broker.
