@@ -37,7 +37,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   features:
-    - navigation.tabs          # top-level tabs: Home / Projects / Blog / About
+    - navigation.tabs          # top-level tabs: Home / Personal Projects / Blog / About
     # (navigation.sections is off so each project folds open and closed in the sidebar)
     - navigation.indexes       # a folder's index.md becomes its landing page
     - navigation.top           # "back to top" button
@@ -93,7 +93,7 @@ extra:
 
 nav:
   - Home: index.md
-  - Projects:
+  - Personal Projects:
       - projects/index.md
       - Dividend Dashboard:
           - projects/dividend-dashboard/index.md

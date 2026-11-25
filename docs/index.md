@@ -11,7 +11,7 @@ This 'sandbox' is where I save my project ideas. I am using my experience along 
 more detail than a README allows: what each app does, how to get started, worked
 examples with screenshots, answers to common questions, and notes on what's changed.
 
-## Projects
+## Personal Projects
 
 <div class="grid cards" markdown>
 
