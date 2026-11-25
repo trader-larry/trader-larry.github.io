@@ -90,6 +90,34 @@ for an index. A stock can be in more than one theme. Save the file and press
 Close the command window, or press ++ctrl+c++ in it (on Windows, answer **Y** if
 it asks "Terminate batch job").
 
+## Host it on Render (optional)
+
+You can also put the app online, so it opens on your phone or any computer.
+The repo includes a `render.yaml` that sets it up on Render's free plan.
+
+1. Sign up at [render.com](https://render.com) with your GitHub account.
+2. **Fork** the [repo](https://github.com/trader-larry/market-theme-map) on
+   GitHub, so you have your own copy for Render to use.
+3. In Render, click **New**, then **Blueprint**, and pick your copy. Give Render
+   access to it if asked.
+4. Render asks for `APP_PASSWORD`. Type a password to keep the page private,
+   or leave it empty to make it public.
+5. Click **Apply**. The first deploy takes a few minutes, and Render shows your
+   link, something like `https://market-theme-map-xxxx.onrender.com`.
+
+With a password set, your browser asks for a username and password: type
+anything as the username and your password below it. You can change the
+password later under the service's **Environment** tab.
+
+!!! note "Things to know"
+    - **The free plan sleeps** after 15 minutes without visitors, so the first
+      visit after a break takes about a minute.
+    - **Yahoo sometimes blocks cloud servers.** If prices fail online but work
+      at home, that's the likely cause. The app keeps retrying every minute.
+    - **Updates deploy themselves:** each push to your copy's `main` branch
+      redeploys it.
+    - Times show in New York time, set by `TZ` in `render.yaml`.
+
 ## Options
 
 | Option | What it does |
@@ -97,6 +125,11 @@ it asks "Terminate batch job").
 | `--demo` | Use made-up prices, so it works offline |
 | `--port 8051` | Run on a different port |
 | `--no-browser` | Don't open a browser tab |
+| `--host 0.0.0.0` | Listen on every network address, not just this computer |
+
+When the `PORT` environment variable is set, as it is on Render, the app
+listens on `0.0.0.0` at that port and doesn't open a browser. Set
+`APP_PASSWORD` to ask visitors for a password.
 
 ## Updating
 

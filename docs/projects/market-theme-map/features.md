@@ -94,9 +94,12 @@ REITs & Real Estate, Industrial Metals and Healthcare Services.
 ## On your phone
 
 The page adapts to small screens, with two tiles per row and theme and stock
-panels that fit the screen (see the [phone screenshots](screenshots.md#on-a-phone)). The app only listens
-on the computer it runs on, so to use it on a phone you'd run it there or set up
-your own secure access.
+panels that fit the screen (see the [phone screenshots](screenshots.md#on-a-phone)).
+
+At home the app only listens on your own computer. To open it on your phone
+anywhere, host it on Render's free plan, with an optional password (see
+[Host it on Render](getting-started.md#host-it-on-render-optional)). You can
+[try my copy](https://market-theme-map.onrender.com/) the same way.
 
 ## Other touches
 

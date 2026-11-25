@@ -44,7 +44,20 @@
     price. Targets are opinions and can be out of date.
 
 ??? question "Can other people on my network see it?"
-    No. The server only listens on your own computer (`127.0.0.1`).
+    Not when you run it at home: the server only listens on your own computer
+    (`127.0.0.1`). If you host it on Render, anyone with the link can open it,
+    unless you set `APP_PASSWORD`.
+
+??? question "Can I use it on my phone?"
+    Yes. Host it on Render's free plan (see
+    [Host it on Render](getting-started.md#host-it-on-render-optional)), then
+    open your Render link on the phone. Set `APP_PASSWORD` to keep it private.
+
+??? question "The online version is slow to open, or shows no prices"
+    Render's free plan sleeps after 15 minutes without visitors, so the first
+    visit after a break takes about a minute. If prices still don't load,
+    Yahoo may be blocking the cloud server. The app retries every minute, and
+    running it at home is the fallback.
 
 ??? question "Can I use other markets, like Canadian stocks or indexes?"
     Yes, anything Yahoo has a daily chart for. Use Yahoo's symbol, such as
