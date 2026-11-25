@@ -37,7 +37,20 @@ The help panel, which opens the first time and from the **?** button.
 
 ## On a phone
 
-Two tiles per row on a small screen, with the refresh and help buttons next to
-the ranking.
+The same app on a phone: two tiles per row, then a theme's stocks and a
+stock's details in panels that fit the screen.
 
-![Market Theme Map on a phone, with the period and ranking buttons above two columns of theme tiles](../../assets/images/market-theme-map/5-phone.webp){ .screenshot loading=lazy width="320" }
+<div class="image-grid phones" markdown>
+<figure markdown="span">
+  ![Market Theme Map on a phone, with the period and ranking buttons above two columns of theme tiles](../../assets/images/market-theme-map/5-phone.webp){ .screenshot loading=lazy }
+  <figcaption>The map</figcaption>
+</figure>
+<figure markdown="span">
+  ![Data Center Power theme detail on a phone, listing each stock with its price and move](../../assets/images/market-theme-map/6-phone-theme.webp){ .screenshot loading=lazy }
+  <figcaption>A theme's stocks</figcaption>
+</figure>
+<figure markdown="span">
+  ![VRT stock detail on a phone, with a price chart, fair value, upside and analyst figures](../../assets/images/market-theme-map/7-phone-stock.webp){ .screenshot loading=lazy }
+  <figcaption>A stock's details</figcaption>
+</figure>
+</div>
