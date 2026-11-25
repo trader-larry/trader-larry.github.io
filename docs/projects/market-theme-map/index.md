@@ -6,8 +6,8 @@ Semiconductors, Nuclear & Uranium or Homebuilders, colored by how its stocks
 moved. Click a theme to see its stocks, then click a stock for its chart, the
 analysts' fair value and the consensus rating.
 
-[:material-play-circle: Try it live](https://market-theme-map.onrender.com/){ .md-button .md-button--primary }
-[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/market-theme-map){ .md-button }
+[:material-play-circle: Try it live](https://market-theme-map.onrender.com/){ .md-button .md-button--primary target=_blank rel=noopener }
+[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/market-theme-map){ .md-button target=_blank rel=noopener }
 [:material-rocket-launch: Get started](getting-started.md){ .md-button }
 
 !!! info "About the live version"
