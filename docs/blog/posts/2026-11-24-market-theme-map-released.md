@@ -34,4 +34,4 @@ What's in this first release:
   [getting-started guide](../../projects/market-theme-map/getting-started.md)
 - An MIT license
 
-[:fontawesome-brands-github: Get it on GitHub](https://github.com/trader-larry/market-theme-map){ .md-button }
+[:fontawesome-brands-github: Get it on GitHub](https://github.com/trader-larry/market-theme-map){ .md-button target=_blank rel=noopener }
