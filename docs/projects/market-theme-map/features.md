@@ -93,7 +93,8 @@ REITs & Real Estate, Industrial Metals and Healthcare Services.
 
 ## On your phone
 
-The page adapts to small screens, with two tiles per row. The app only listens
+The page adapts to small screens, with two tiles per row and theme and stock
+panels that fit the screen (see the [phone screenshots](screenshots.md#on-a-phone)). The app only listens
 on the computer it runs on, so to use it on a phone you'd run it there or set up
 your own secure access.
 

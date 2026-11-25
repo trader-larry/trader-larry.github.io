@@ -33,3 +33,14 @@
   max-height: 20rem;
   object-fit: contain;
 }
+
+/* Narrower columns for phone screenshots, so three fit side by side.
+   Usage: <div class="image-grid phones" markdown> */
+.md-typeset .image-grid.phones {
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  align-items: start;
+}
+
+.md-typeset .image-grid.phones img {
+  max-height: 24rem;
+}
