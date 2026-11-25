@@ -13,6 +13,25 @@
     your holdings never leave it. Keep a copy somewhere safe and don't include it
     if you share the dashboard.
 
+??? question "Is there a live version I can try without installing anything?"
+    Yes, the [live demo](https://dividend-dashboard-demo-979i.onrender.com/){ target=_blank rel=noopener }. It uses **demo
+    data**: a sample portfolio of 26 dividend ETFs and stocks, never anyone's
+    real holdings. It's read-only, so editing, importing and saving Planning
+    scenarios are turned off, but you can filter, sort, export, use Research and
+    Symbol comparison, and try what-if plans. To track your own holdings, run it
+    on your own computer.
+
+??? question "The live demo is slow to open"
+    It runs on Render's free plan, which sleeps after 15 minutes without
+    visitors. The first visit after a break takes about a minute while it wakes
+    up and loads prices, then it's fast until it sleeps again.
+
+??? question "Can I put my own copy online?"
+    Yes, as a read-only demo with the sample portfolio. See
+    [Host it on Render](getting-started.md#host-it-on-render-optional). It never
+    uses your own `holdings.csv`, so it isn't a way to see your real portfolio
+    on your phone.
+
 ??? question "Where are my Planning scenarios saved?"
     In `holdings-plans.json` (named after your holdings file) in the same folder
     as your holdings file. If that file is in a shared cloud folder, your saved
@@ -65,5 +84,7 @@
     No. Downloads ship `holdings.example.csv`, never `holdings.csv`.
 
 ??? question "Is this investment advice?"
-    No. It's for information only. Data can be delayed, estimated or wrong, so
-    check anything important with your broker or the fund's own website.
+    No. It's for information only, and that includes the
+    [live demo](https://dividend-dashboard-demo-979i.onrender.com/){ target=_blank rel=noopener }. Data can be delayed,
+    estimated or wrong, so check anything important with your broker or the
+    fund's own website.
