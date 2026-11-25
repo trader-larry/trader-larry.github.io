@@ -5,7 +5,7 @@ computer and opens in your web browser. It pulls free Yahoo Finance data, needs
 no API key or account, and uses only Python's standard library, so there's
 nothing extra to install (and nothing for Windows Smart App Control to block).
 
-[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/dividend-dashboard){ .md-button .md-button--primary }
+[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/dividend-dashboard){ .md-button .md-button--primary target=_blank rel=noopener }
 [:material-rocket-launch: Get started](getting-started.md){ .md-button }
 
 ![Dividend Dashboard in dark theme, showing summary cards, projected income by month and upcoming ex-dividend dates](../../assets/images/dividend-dashboard/overview.webp){ .screenshot }

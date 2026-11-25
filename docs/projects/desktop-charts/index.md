@@ -5,7 +5,7 @@ your web browser. Up to 24 charts per window, extra windows for more screens, vo
 anchored VWAP, drawing tools, price alerts and watchlists, with live market data from your
 tastytrade account. Without an account it runs on demo data, so anyone can try it.
 
-[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/desktop-charts){ .md-button .md-button--primary }
+[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/desktop-charts){ .md-button .md-button--primary target=_blank rel=noopener }
 [:material-rocket-launch: Get started](getting-started.md){ .md-button }
 
 ![Desktop Charts with four 5-minute charts (SPY, QQQ, IWM and AAPL), each with a visible-range volume profile and a ticker watermark, and the watchlist with its Ext column on the right](../../assets/images/desktop-charts/overview.webp){ .screenshot }

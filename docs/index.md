@@ -44,7 +44,7 @@ examples with screenshots, answers to common questions, and notes on what's chan
   Free Yahoo Finance data, no API key, standard library only.
 
   [:octicons-arrow-right-24: Read more](projects/market-theme-map/index.md) ·
-  [:material-play-circle: Try it live](https://market-theme-map.onrender.com/)
+  [:material-play-circle: Try it live](https://market-theme-map.onrender.com/){ target=_blank rel=noopener }
 
 </div>
 
