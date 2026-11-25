@@ -46,7 +46,7 @@ and move. Each move is drawn as a bar to the right of the center line for gains
 and to the left for losses, scaled to the theme's biggest mover. The average,
 median and number advancing sit at the top.
 
-![Data Center Power theme detail: VRT, GEV, TLN, VST, PWR and CEG up, ETN and NRG down, with an average of +9.68%](../../assets/images/market-theme-map/1-theme-detail.webp){ .screenshot loading=lazy }
+![Data Center Power theme detail: each stock's price and move, gains drawn right of zero in green and losses left in red, with the theme's average, median and number advancing at the top](../../assets/images/market-theme-map/1-theme-detail.webp){ .screenshot loading=lazy }
 
 ## Stock detail
 
@@ -56,7 +56,8 @@ Click a stock for:
 - **Fair value**, the analysts' mean price target, and the **upside** from today's price
 - The low and high targets and the number of analysts
 - The **consensus** rating, such as Buy or Hold, with its score (1 is strong buy, 5 is sell)
-- Trailing and forward P/E, market cap and the 52-week range
+- Trailing and forward P/E, market cap and the 52-week range (worked out from the
+  price history when Yahoo doesn't supply it)
 - Every theme the stock belongs to
 
 Analyst data is fetched when you open a stock and kept for 6 hours.
@@ -82,10 +83,13 @@ REITs & Real Estate, Industrial Metals and Healthcare Services.
 
 - Prices come from Yahoo Finance's free, delayed chart data: 14 months of daily
   closes for every stock, so even 1Y has enough history.
-- The app refreshes prices every 5 minutes, and the page reloads itself on the
-  same schedule. **↻** refreshes right away.
+- The app downloads new prices every 5 minutes, in the background, so the page
+  stays responsive while it does. The page checks for new figures every minute,
+  and **↻** refreshes right away.
 - If Yahoo stops answering, the app keeps showing the last good data and tries
   again a minute later. The status line says the last refresh failed.
+- If Yahoo skips a few symbols in one refresh, those stocks keep their previous
+  prices rather than going blank.
 
 ## On your phone
 
