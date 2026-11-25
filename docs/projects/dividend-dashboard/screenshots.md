@@ -62,4 +62,4 @@ A one-page snapshot to save as a PNG or PDF: metric cards, 12-month income, inco
 
 This one uses the live demo's fuller sample portfolio (24 holdings plus 2 watched, `python server.py --public-demo` with synthetic numbers).
 
-![Summary tab: Metric cards, 12-month income, income by payout frequency, allocation donuts, holdings by size and annual projection by holding](../../assets/images/dividend-dashboard/9-summary.webp){ .screenshot loading=lazy }
+![Summary tab: Metric cards, 12-month income, income by payout frequency, allocation donuts, holdings by size and annual projection by holding](../../assets/images/dividend-dashboard/9-summary-demo.webp){ .screenshot loading=lazy }
