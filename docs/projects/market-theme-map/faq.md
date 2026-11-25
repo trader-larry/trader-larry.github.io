@@ -5,8 +5,8 @@
     up for. To try it without internet, start it with `--demo`.
 
 ??? question "Is the data real time?"
-    No. Yahoo's free prices can be delayed, and the app refreshes every 5
-    minutes. It's meant for a
+    No. Yahoo's free prices can be delayed, and the app downloads new ones
+    every 5 minutes. It's meant for a
     picture of the market, not for timing trades.
 
 ??? question "Do I need to install any packages?"
@@ -27,9 +27,11 @@
     with `--port 8051`.
 
 ??? question "A stock shows \"no data\""
-    Yahoo didn't return prices for that symbol. Check it's written the way
-    Yahoo writes it (for example `BRK-B`, not `BRK.B`), and that it still
-    trades. The theme's figures leave it out.
+    Yahoo has never returned prices for that symbol since the app started.
+    (A stock Yahoo skips in one refresh keeps its last prices, so "no data"
+    means it isn't coming through at all.) Check it's written the way Yahoo
+    writes it (for example `BRK-B`, not `BRK.B`), and that it still trades.
+    The theme's figures leave it out.
 
 ??? question "How are the theme figures calculated?"
     Each stock counts equally. The average is the mean of the stocks' moves,

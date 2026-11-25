@@ -18,8 +18,8 @@ right of zero.
 
 ## Stock detail
 
-A stock's price chart, fair value and upside, analyst targets, consensus, P/E
-and market cap.
+A stock's price chart, fair value and upside, analyst targets, consensus, P/E,
+market cap and 52-week range.
 
 ![VRT stock detail with a price chart, fair value, upside and analyst figures](../../assets/images/market-theme-map/2-stock-detail.webp){ .screenshot loading=lazy }
 
@@ -37,6 +37,7 @@ The help panel, which opens the first time and from the **?** button.
 
 ## On a phone
 
-Two tiles per row on a small screen.
+Two tiles per row on a small screen, with the refresh and help buttons next to
+the ranking.
 
 ![Market Theme Map on a phone, with the period and ranking buttons above two columns of theme tiles](../../assets/images/market-theme-map/5-phone.webp){ .screenshot loading=lazy width="320" }
