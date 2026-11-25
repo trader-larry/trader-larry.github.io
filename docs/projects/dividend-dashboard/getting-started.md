@@ -109,6 +109,48 @@ Click **Stop** at the top right of the page and confirm, double-click
 `stop_windows.bat` (Windows), run `./stop_mac_linux.sh` (Mac/Linux), or press
 ++ctrl+c++ in the command window.
 
+## Host it on Render (optional)
+
+You can put a public, read-only demo of the dashboard online, so people can try
+it in their browser without installing anything, like
+[my live demo](https://dividend-dashboard-demo-979i.onrender.com/){ target=_blank rel=noopener }. The repo includes a
+`render.yaml` that sets it up on Render's free plan.
+
+!!! warning "The demo shows sample data, not your holdings"
+    The online demo always uses the sample portfolio in `demo/demo-holdings.csv`
+    and the sample scenarios in `demo/demo-scenarios.json`. Your own
+    `holdings.csv` is never uploaded: it's left out of git, so it isn't in the
+    repo. Edit holdings, Import CSV and Stop are hidden, and Planning can't save
+    scenarios. To track your real holdings, run it on your own computer.
+
+1. Sign up at [render.com](https://render.com){ target=_blank rel=noopener } with your GitHub account.
+2. **Fork** the [repo](https://github.com/trader-larry/dividend-dashboard){ target=_blank rel=noopener } on
+   GitHub, so you have your own copy for Render to use.
+3. In Render, click **New**, then **Blueprint**, and pick your copy. Give Render
+   access to it if asked.
+4. Render finds `render.yaml` and shows one web service,
+   **dividend-dashboard-demo**, on the Free plan. Click **Apply**.
+5. The first deploy takes a minute or two, and Render shows your link,
+   something like `https://dividend-dashboard-demo-xxxx.onrender.com`.
+
+To change the sample portfolio, edit the two files in `demo/` in your copy and push.
+
+!!! note "Things to know"
+    - **The free plan sleeps** after 15 minutes without visitors, so the first
+      visit after a break takes about a minute, plus a few seconds to load prices.
+    - **Prices are cached for 6 hours** and refreshed in the background, so
+      visitors share the same data instead of each one going to Yahoo. Change
+      it with `DEMO_CACHE_HOURS` on the service's **Environment** tab.
+    - **Yahoo sometimes blocks cloud servers.** Holdings then fall back to
+      sample numbers, so the page never comes up empty. Set `DEMO_DATA` to
+      `synthetic` for a demo made entirely of made-up numbers.
+    - **Missing fund details:** Yahoo often holds back expense ratios, top
+      holdings and sectors from Render. Run `python server.py --save-demo-snapshot`
+      on your own computer, then commit and push `demo/fund-snapshot.json`.
+    - **Updates deploy themselves:** each push to your copy's `main` branch
+      redeploys it.
+    - **Try it on your computer first:** `python server.py --public-demo`.
+
 ## Command-line options
 
 | Option | What it does |
@@ -118,6 +160,8 @@ Click **Stop** at the top right of the page and confirm, double-click
 | `--no-browser` | Don't open the browser automatically |
 | `--holdings PATH` | Use a holdings file somewhere else, e.g. a cloud folder |
 | `--yfinance` | Use the `yfinance` library instead of the built-in client |
+| `--public-demo` | Read-only demo with the sample portfolio in `demo/`, for hosting online |
+| `--save-demo-snapshot` | Save fund details for the demo portfolio to `demo/fund-snapshot.json` |
 
 ## Updating
 

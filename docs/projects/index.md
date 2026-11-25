@@ -12,6 +12,7 @@ a feature tour, screenshots and an FAQ.
   Track dividend ETFs, funds and stocks from your own computer.
 
   [:octicons-arrow-right-24: Overview](dividend-dashboard/index.md) ·
+  [:material-play-circle: Try it live](https://dividend-dashboard-demo-979i.onrender.com/){ target=_blank rel=noopener } ·
   [:fontawesome-brands-github: Repo](https://github.com/trader-larry/dividend-dashboard){ target=_blank rel=noopener }
 
 - :material-chart-box-outline:{ .lg .middle } **Desktop Charts**

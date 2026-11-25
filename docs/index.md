@@ -23,7 +23,8 @@ examples with screenshots, answers to common questions, and notes on what's chan
   ex-dividend calendar, overlap between funds and side-by-side comparisons.
   Free Yahoo Finance data, no API key, standard library only.
 
-  [:octicons-arrow-right-24: Read more](projects/dividend-dashboard/index.md)
+  [:octicons-arrow-right-24: Read more](projects/dividend-dashboard/index.md) ·
+  [:material-play-circle: Try it live](https://dividend-dashboard-demo-979i.onrender.com/){ target=_blank rel=noopener }
 
 - :material-chart-box-outline:{ .lg .middle } **Desktop Charts**
 

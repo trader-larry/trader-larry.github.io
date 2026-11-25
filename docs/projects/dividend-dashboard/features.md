@@ -178,6 +178,18 @@ exports follow it too.
     Before an import saves, the current file is copied to `backups/` (the newest
     20 are kept).
 
+## Live demo online
+
+A read-only version runs on Render with a sample portfolio of 26 dividend ETFs
+and stocks and two saved Planning scenarios:
+[try it live](https://dividend-dashboard-demo-979i.onrender.com/){ target=_blank rel=noopener }. It uses demo data,
+never real holdings, with live Yahoo Finance prices refreshed every few hours.
+Editing, Import CSV, Stop and saving scenarios are hidden; everything else
+works, including Research, Symbol comparison and what-if plans (which stay in
+your own browser). The first visit after a quiet spell takes about a minute
+while the free plan wakes up. To host your own copy, see
+[Host it on Render](getting-started.md#host-it-on-render-optional).
+
 ## Other touches
 
 - Auto / Light / Dark theme switch, remembered per browser.

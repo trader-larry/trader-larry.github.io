@@ -4,9 +4,20 @@ A small dashboard for your dividend ETFs, funds and stocks that runs on your own
 computer and opens in your web browser. It pulls free Yahoo Finance data, needs
 no API key or account, and uses only Python's standard library, so there's
 nothing extra to install (and nothing for Windows Smart App Control to block).
+You can also try a read-only live demo with a sample portfolio, online on Render.
 
-[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/dividend-dashboard){ .md-button .md-button--primary target=_blank rel=noopener }
+[:material-play-circle: Try it live](https://dividend-dashboard-demo-979i.onrender.com/){ .md-button .md-button--primary target=_blank rel=noopener }
+[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/dividend-dashboard){ .md-button target=_blank rel=noopener }
 [:material-rocket-launch: Get started](getting-started.md){ .md-button }
+
+!!! info "About the live demo"
+    The live version uses **demo data**: a sample portfolio of 26 well-known
+    dividend ETFs and stocks, not my holdings or yours. It's read-only, so
+    editing and importing are turned off. Prices come from Yahoo Finance's free
+    data, refreshed every few hours, so they may be delayed or sometimes
+    unavailable. Nothing shown is investment advice. It runs on Render's free
+    plan, which sleeps when nobody has visited for a while, so the first visit
+    after a break takes about a minute while it wakes up and loads prices.
 
 ![Dividend Dashboard in dark theme, showing summary cards, projected income by month and upcoming ex-dividend dates](../../assets/images/dividend-dashboard/overview.webp){ .screenshot }
 
@@ -22,7 +33,7 @@ paid API key. This one keeps my holdings on my own machine.
 
 | | |
 |---|---|
-| **Runs on** | Windows, macOS, Linux (Python 3.9 or newer) |
+| **Runs on** | Windows, macOS, Linux (Python 3.9 or newer), or as a read-only demo on [Render](getting-started.md#host-it-on-render-optional)'s free plan |
 | **Data** | Yahoo Finance, cached for 15 minutes; optional `yfinance` fallback |
 | **Your holdings** | A plain `holdings.csv` you can edit in the page or in Excel |
 | **Privacy** | Runs at `http://127.0.0.1:8765`; holdings never leave your computer |
