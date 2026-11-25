@@ -107,6 +107,12 @@ nav:
           - Features: projects/desktop-charts/features.md
           - Screenshots: projects/desktop-charts/screenshots.md
           - FAQ: projects/desktop-charts/faq.md
+      - Market Theme Map:
+          - projects/market-theme-map/index.md
+          - Getting started: projects/market-theme-map/getting-started.md
+          - Features: projects/market-theme-map/features.md
+          - Screenshots: projects/market-theme-map/screenshots.md
+          - FAQ: projects/market-theme-map/faq.md
   - Blog:
       - blog/index.md
   - About: about.md

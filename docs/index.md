@@ -35,6 +35,16 @@ examples with screenshots, answers to common questions, and notes on what's chan
 
   [:octicons-arrow-right-24: Read more](projects/desktop-charts/index.md)
 
+- :material-view-grid-outline:{ .lg .middle } **Market Theme Map**
+
+  ---
+
+  A heatmap of the market grouped by theme, such as AI chips, nuclear and
+  homebuilders, with breadth, medians and analysts' fair value for each stock.
+  Free Yahoo Finance data, no API key, standard library only.
+
+  [:octicons-arrow-right-24: Read more](projects/market-theme-map/index.md)
+
 </div>
 
 ## Latest posts

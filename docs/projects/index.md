@@ -23,6 +23,15 @@ a feature tour, screenshots and an FAQ.
   [:octicons-arrow-right-24: Overview](desktop-charts/index.md) ·
   [:fontawesome-brands-github: Repo](https://github.com/trader-larry/desktop-charts)
 
+- :material-view-grid-outline:{ .lg .middle } **Market Theme Map**
+
+  ---
+
+  A heatmap of the market by theme, from AI chips to homebuilders.
+
+  [:octicons-arrow-right-24: Overview](market-theme-map/index.md) ·
+  [:fontawesome-brands-github: Repo](https://github.com/trader-larry/market-theme-map)
+
 </div>
 
 <!--
