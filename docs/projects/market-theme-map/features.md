@@ -99,7 +99,7 @@ panels that fit the screen (see the [phone screenshots](screenshots.md#on-a-phon
 At home the app only listens on your own computer. To open it on your phone
 anywhere, host it on Render's free plan, with an optional password (see
 [Host it on Render](getting-started.md#host-it-on-render-optional)). You can
-[try my copy](https://market-theme-map.onrender.com/) the same way.
+[try my copy](https://market-theme-map.onrender.com/){ target=_blank rel=noopener } the same way.
 
 ## Other touches
 

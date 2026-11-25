@@ -27,7 +27,7 @@ python --version   # or python3 --version on a Mac; should be 3.9 or higher
 
 ## 2. Download and start the dashboard
 
-1. Open the [GitHub repo](https://github.com/trader-larry/dividend-dashboard),
+1. Open the [GitHub repo](https://github.com/trader-larry/dividend-dashboard){ target=_blank rel=noopener },
    click the green **Code** button, then **Download ZIP**.
 2. Unzip it (Windows: right-click → **Extract All**; Mac: double-click) and move
    the folder wherever you like.
@@ -58,7 +58,7 @@ python --version   # or python3 --version on a Mac; should be 3.9 or higher
     python server.py
     ```
 
-Your browser opens the dashboard at <http://127.0.0.1:8765>. Leave the command
+Your browser opens the dashboard at [http://127.0.0.1:8765](http://127.0.0.1:8765){ target=_blank rel=noopener }. Leave the command
 window open while you use it.
 
 !!! tip "Try it without internet"
