@@ -7,12 +7,12 @@ account, no API key and no packages to install.
 
 === "Windows"
 
-    Download Python from [python.org](https://www.python.org/downloads/) and
+    Download Python from [python.org](https://www.python.org/downloads/){ target=_blank rel=noopener } and
     run the installer. On the first screen, tick **Add python.exe to PATH**.
 
 === "Mac"
 
-    Download Python from [python.org](https://www.python.org/downloads/) and
+    Download Python from [python.org](https://www.python.org/downloads/){ target=_blank rel=noopener } and
     run the installer.
 
 === "Linux"
@@ -95,7 +95,7 @@ it asks "Terminate batch job").
 You can also put the app online, so it opens on your phone or any computer.
 The repo includes a `render.yaml` that sets it up on Render's free plan.
 
-1. Sign up at [render.com](https://render.com) with your GitHub account.
+1. Sign up at [render.com](https://render.com){ target=_blank rel=noopener } with your GitHub account.
 2. **Fork** the [repo](https://github.com/trader-larry/market-theme-map){ target=_blank rel=noopener } on
    GitHub, so you have your own copy for Render to use.
 3. In Render, click **New**, then **Blueprint**, and pick your copy. Give Render

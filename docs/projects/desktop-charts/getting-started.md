@@ -7,18 +7,18 @@ account is optional: without one the app runs on demo data.
 
 === "Windows"
 
-    Download the **LTS** version from [nodejs.org](https://nodejs.org) and run
+    Download the **LTS** version from [nodejs.org](https://nodejs.org){ target=_blank rel=noopener } and run
     the installer with the default options.
 
 === "Mac"
 
-    Download the **LTS** version from [nodejs.org](https://nodejs.org) and run
+    Download the **LTS** version from [nodejs.org](https://nodejs.org){ target=_blank rel=noopener } and run
     the installer.
 
 === "Linux"
 
     Install Node.js 18 or newer from your package manager or
-    [nodejs.org](https://nodejs.org).
+    [nodejs.org](https://nodejs.org){ target=_blank rel=noopener }.
 
 Check it in a command prompt or Terminal:
 

@@ -6,13 +6,13 @@ A five-minute setup. You need Python 3.9 or newer and nothing else.
 
 === "Windows"
 
-    Download it from [python.org/downloads](https://www.python.org/downloads/).
+    Download it from [python.org/downloads](https://www.python.org/downloads/){ target=_blank rel=noopener }.
     On the first installer screen, tick **Add python.exe to PATH**, then click
     **Install Now**.
 
 === "Mac"
 
-    Download it from [python.org/downloads](https://www.python.org/downloads/)
+    Download it from [python.org/downloads](https://www.python.org/downloads/){ target=_blank rel=noopener }
     and run the installer.
 
 === "Linux"

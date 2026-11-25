@@ -25,7 +25,7 @@ machine, and only ever reads market data.
 |---|---|
 | **Runs on** | Windows, macOS, Linux (Node.js 18 or newer) |
 | **Data** | tastytrade DXLink streaming (stocks, ETFs, futures, crypto), or built-in demo data |
-| **Charts** | TradingView's open-source [Lightweight Charts™](https://www.tradingview.com/lightweight-charts/) library |
+| **Charts** | TradingView's open-source [Lightweight Charts™](https://www.tradingview.com/lightweight-charts/){ target=_blank rel=noopener } library |
 | **Privacy** | Runs at `http://localhost:8787`; your tastytrade keys stay in a local `config.json` and never reach the browser |
 | **Account access** | Read-only charting: it never touches accounts, positions or orders |
 | **Dependencies** | None to install beyond Node.js |

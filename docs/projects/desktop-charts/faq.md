@@ -22,7 +22,7 @@
 
 ??? question "`node` is not recognized"
     Node.js isn't installed, or the command window was opened before you
-    installed it. Install the LTS version from [nodejs.org](https://nodejs.org)
+    installed it. Install the LTS version from [nodejs.org](https://nodejs.org){ target=_blank rel=noopener }
     and open a new window.
 
 ??? question "The browser doesn't open"
