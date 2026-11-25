@@ -1,4 +1,4 @@
-# Projects
+# Personal Projects
 
 Each project has its own section with an overview, a getting-started guide,
 a feature tour, screenshots and an FAQ.
