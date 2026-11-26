@@ -6,10 +6,9 @@ hide:
 
 # Welcome
 
-This 'sandbox' is where I save my project ideas. I am using my experience along with Ai to help build small Python apps that I use every day, and I publish some of them on
-[GitHub](https://github.com/trader-larry){ target=_blank rel=noopener }. This site helps to where I can explain them in
-more detail than a README allows: what each app does, how to get started, worked
-examples with screenshots, answers to common questions, and notes on what's changed.
+This 'sandbox' is where I save and share my project ideas. I publish some of them on my personal GiHub page-> 
+[GitHub](https://github.com/trader-larry){ target=_blank rel=noopener }. This site allows me to explain them in more detail than a README file on GitHub allows: what each app does: how to get started: worked
+examples with screenshots: answers to common questions: and notes on what's changed.
 
 ## Personal Projects
 
