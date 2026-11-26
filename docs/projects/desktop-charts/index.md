@@ -5,10 +5,30 @@ your web browser. Up to 24 charts per window, extra windows for more screens, vo
 anchored VWAP, drawing tools, price alerts and watchlists, with live market data from your
 tastytrade account. Without an account it runs on demo data, so anyone can try it.
 
-[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/desktop-charts){ .md-button .md-button--primary target=_blank rel=noopener }
+[:material-download: Download](https://github.com/trader-larry/desktop-charts/releases/latest){ .md-button .md-button--primary target=_blank rel=noopener }
+[:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/desktop-charts){ .md-button target=_blank rel=noopener }
 [:material-rocket-launch: Get started](getting-started.md){ .md-button }
 
 ![Desktop Charts with four 5-minute charts (SPY, QQQ, IWM and AAPL), each with a visible-range volume profile and a ticker watermark, and the watchlist with its Ext column on the right](../../assets/images/desktop-charts/overview.webp){ .screenshot }
+
+## Latest release
+
+**[v1.0.0](https://github.com/trader-larry/desktop-charts/releases/tag/v1.0.0){ target=_blank rel=noopener }**, released November 26, 2026. This is the first
+release you can download as a ready-to-run zip: get `desktop-charts-v1.0.0.zip`
+(151 KB) under **Assets** on the [latest release](https://github.com/trader-larry/desktop-charts/releases/latest){ target=_blank rel=noopener } page. You
+don't need git or a GitHub account. Then follow [Getting started](getting-started.md).
+
+What's in it:
+
+- **Extra chart windows** that reopen at their saved size and position, plus
+  12- and 24-chart layouts.
+- **Price alerts**, multiple watchlists sortable by any column, and zoom memory per timeframe.
+- **SPX Levels** indicator for SPX and XSP.
+- **4h timeframe**, and line style, thickness, coordinate editing and a price
+  label toggle for drawings.
+- **Update notice:** the status bar tells you when a newer version is out.
+
+See the [full release notes](https://github.com/trader-larry/desktop-charts/releases/tag/v1.0.0){ target=_blank rel=noopener } for every change.
 
 ## Why I built it
 
@@ -19,6 +39,7 @@ I wanted charts that I can customize myself, create my own multi window layouts,
 | | |
 |---|---|
 | **Runs on** | Windows, macOS, Linux (Node.js 18 or newer) |
+| **Latest version** | [v1.0.0](https://github.com/trader-larry/desktop-charts/releases/tag/v1.0.0){ target=_blank rel=noopener }, November 26, 2026 ([download](https://github.com/trader-larry/desktop-charts/releases/latest){ target=_blank rel=noopener }) |
 | **Data** | tastytrade DXLink streaming (stocks, ETFs, futures, crypto), or built-in demo data |
 | **Charts** | TradingView's open-source [Lightweight Charts™](https://www.tradingview.com/lightweight-charts/){ target=_blank rel=noopener } library |
 | **Privacy** | Runs at `http://localhost:8787`; your tastytrade keys stay in a local `config.json` and never reach the browser |
