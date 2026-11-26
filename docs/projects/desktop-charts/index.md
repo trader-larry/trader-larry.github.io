@@ -12,12 +12,7 @@ tastytrade account. Without an account it runs on demo data, so anyone can try i
 
 ## Why I built it
 
-I wanted the charts I actually trade from, with volume profile, POC and value
-area, several symbols side by side, and futures next to stocks, driven by the
-data feed I already have through tastytrade. Web charting sites put the
-features I use behind a subscription, and my broker's platform doesn't lay
-charts out the way I like. This one runs locally, keeps my API keys on my own
-machine, and only ever reads market data.
+I wanted charts that I can customize myself, create my own multi window layouts, add specific custom indicators, and display futures and/or stocks, driven by the data feed I already have through tastytrade. Web charting sites put the features I use behind a subscription, and my broker's platform doesn't lay charts out the way I like or has limitations that I can overcome by coding myself. This one runs locally, keeps my API keys on my own machine, and only ever reads market data.
 
 ## At a glance
 

@@ -21,7 +21,7 @@ analysts' fair value and the consensus rating.
 
 ## Why I built it
 
-Index heatmaps show me sectors, but I think about the market in themes: data
+Index heatmaps show me sectors, but sometimes I think about the market in themes: data
 center power, nuclear, quantum, GLP-1, crypto miners. Those cut across sectors,
 so a sector map hides them. I wanted one screen that tells me which themes are
 working this week and which are fading, how many of their stocks are taking

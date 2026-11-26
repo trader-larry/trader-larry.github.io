@@ -23,9 +23,9 @@ You can also try a read-only live demo with a sample portfolio, online on Render
 
 ## Why I built it
 
-I wanted one page that answers the questions I actually ask about my dividend
+I wanted one page that I can customize to fit what I am looking for that answers the questions I actually ask about my dividend
 holdings: how much income to expect each month, when the next ex-dividend dates
-are, which funds overlap, and whether a high yield is hiding a falling price.
+are, which funds overlap, and whether a high yield is hiding a falling price, etc.
 Brokers spread that across many screens, and most tools want an account or a
 paid API key. This one keeps my holdings on my own machine.
 
