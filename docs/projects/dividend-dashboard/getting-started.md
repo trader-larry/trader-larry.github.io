@@ -27,8 +27,9 @@ python --version   # or python3 --version on a Mac; should be 3.9 or higher
 
 ## 2. Download and start the dashboard
 
-1. Open the [GitHub repo](https://github.com/trader-larry/dividend-dashboard){ target=_blank rel=noopener },
-   click the green **Code** button, then **Download ZIP**.
+1. Open the [latest release](https://github.com/trader-larry/dividend-dashboard/releases/latest){ target=_blank rel=noopener }
+   and, under **Assets**, download `dividend-dashboard-vX.Y.Z.zip` (for example
+   `dividend-dashboard-v1.0.0.zip`). You don't need git or a GitHub account.
 2. Unzip it (Windows: right-click → **Extract All**; Mac: double-click) and move
    the folder wherever you like.
 3. Start it from inside that folder:
@@ -162,9 +163,17 @@ To change the sample portfolio, edit the two files in `demo/` in your copy and p
 | `--yfinance` | Use the `yfinance` library instead of the built-in client |
 | `--public-demo` | Read-only demo with the sample portfolio in `demo/`, for hosting online |
 | `--save-demo-snapshot` | Save fund details for the demo portfolio to `demo/fund-snapshot.json` |
+| `--no-update-check` | Don't check GitHub for a newer version |
 
 ## Updating
 
-Download the new version the same way and copy its files over your folder.
-The download ships `holdings.example.csv`, not `holdings.csv`, so your holdings
-are never overwritten.
+When a new version is out, the dashboard shows a banner at the top with a download link. Download the newest zip
+from the [latest release](https://github.com/trader-larry/dividend-dashboard/releases/latest){ target=_blank rel=noopener } and unzip it over your folder.
+Your `holdings.csv` is never in the zip, so your holdings are kept.
+
+!!! info "About the update check"
+    A downloaded copy checks GitHub once every 12 hours for a newer release. It
+    only reads the public release number; nothing about you is sent, and it never
+    downloads or installs anything by itself. Turn it off with
+    `python server.py --no-update-check` (or set `DIVIDEND_NO_UPDATE_CHECK=1`). Copies made with
+    `git clone` don't check: use `git pull` instead.

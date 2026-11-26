@@ -13,6 +13,7 @@ a feature tour, screenshots and an FAQ.
 
   [:octicons-arrow-right-24: Overview](dividend-dashboard/index.md) ·
   [:material-play-circle: Try it live](https://dividend-dashboard-demo-979i.onrender.com/){ target=_blank rel=noopener } ·
+  [:material-download: Download](https://github.com/trader-larry/dividend-dashboard/releases/latest){ target=_blank rel=noopener } ·
   [:fontawesome-brands-github: Repo](https://github.com/trader-larry/dividend-dashboard){ target=_blank rel=noopener }
 
 - :material-chart-box-outline:{ .lg .middle } **Desktop Charts**
@@ -22,6 +23,7 @@ a feature tour, screenshots and an FAQ.
   TradingView-style charts on your own computer, with tastytrade data.
 
   [:octicons-arrow-right-24: Overview](desktop-charts/index.md) ·
+  [:material-download: Download](https://github.com/trader-larry/desktop-charts/releases/latest){ target=_blank rel=noopener } ·
   [:fontawesome-brands-github: Repo](https://github.com/trader-larry/desktop-charts){ target=_blank rel=noopener }
 
 - :material-view-grid-outline:{ .lg .middle } **Market Theme Map**
@@ -32,6 +34,7 @@ a feature tour, screenshots and an FAQ.
 
   [:octicons-arrow-right-24: Overview](market-theme-map/index.md) ·
   [:material-play-circle: Try it live](https://market-theme-map.onrender.com/){ target=_blank rel=noopener } ·
+  [:material-download: Download](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener } ·
   [:fontawesome-brands-github: Repo](https://github.com/trader-larry/market-theme-map){ target=_blank rel=noopener }
 
 </div>

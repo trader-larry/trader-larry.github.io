@@ -28,8 +28,9 @@ node --version   # should be v18 or higher
 
 ## 2. Download and start the app
 
-1. Open the [GitHub repo](https://github.com/trader-larry/desktop-charts){ target=_blank rel=noopener },
-   click the green **Code** button, then **Download ZIP**.
+1. Open the [latest release](https://github.com/trader-larry/desktop-charts/releases/latest){ target=_blank rel=noopener }
+   and, under **Assets**, download `desktop-charts-vX.Y.Z.zip` (for example
+   `desktop-charts-v1.0.0.zip`). You don't need git or a GitHub account.
 2. Unzip it (Windows: right-click → **Extract All**; Mac: double-click) and move
    the folder wherever you like.
 3. Start it from inside that folder:
@@ -114,11 +115,19 @@ it starts.
 | Option | What it does |
 |---|---|
 | `--demo` | Use demo data even if tastytrade keys are set |
+| `--no-update-check` | Don't check GitHub for a newer version |
 | `APPWINDOW=0` | In the start script: open a normal browser tab instead of an app window |
 | `PORT=9000` | Environment variable to use a different port (or set `"port"` in `config.json`) |
 
 ## Updating
 
-Download the new version the same way and copy its files over your folder.
-Downloads never include `config.json`, so your keys are kept. Your layouts,
-drawings, watchlists and alerts are stored in your browser and stay as they are.
+When a new version is out, the app shows **Update available** in the status bar with a link. Download the newest zip
+from the [latest release](https://github.com/trader-larry/desktop-charts/releases/latest){ target=_blank rel=noopener } and unzip it over your folder.
+Your `config.json` (tastytrade keys) is never in the zip, so it's kept, and your layouts, drawings, watchlists and alerts live in your browser.
+
+!!! info "About the update check"
+    A downloaded copy checks GitHub once every 12 hours for a newer release. It
+    only reads the public release number; nothing about you is sent, and it never
+    downloads or installs anything by itself. Turn it off with
+    `node server.js --no-update-check` (or set `CHARTS_NO_UPDATE_CHECK=1`). Copies made with
+    `git clone` don't check: use `git pull` instead.

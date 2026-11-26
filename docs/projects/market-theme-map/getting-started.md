@@ -28,8 +28,9 @@ python --version   # should be 3.10 or higher (on Mac and Linux: python3)
 
 ## 2. Download and start the app
 
-1. Open the [GitHub repo](https://github.com/trader-larry/market-theme-map){ target=_blank rel=noopener },
-   click the green **Code** button, then **Download ZIP**.
+1. Open the [latest release](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener }
+   and, under **Assets**, download `market-theme-map-vX.Y.Z.zip` (for example
+   `market-theme-map-v1.0.0.zip`). You don't need git or a GitHub account.
 2. Unzip it (Windows: right-click → **Extract All**; Mac: double-click) and move
    the folder wherever you like.
 3. Start it from inside that folder:
@@ -126,6 +127,7 @@ password later under the service's **Environment** tab.
 | `--port 8051` | Run on a different port |
 | `--no-browser` | Don't open a browser tab |
 | `--host 0.0.0.0` | Listen on every network address, not just this computer |
+| `--no-update-check` | Don't check GitHub for a newer version |
 
 When the `PORT` environment variable is set, as it is on Render, the app
 listens on `0.0.0.0` at that port and doesn't open a browser. Set
@@ -133,6 +135,13 @@ listens on `0.0.0.0` at that port and doesn't open a browser. Set
 
 ## Updating
 
-Download the new version the same way and copy its files over your folder. If
-you've changed `themes.json`, keep a copy of yours first and put it back
-afterwards, because the download includes the default file.
+When a new version is out, the map shows a banner at the top with a download link. Download the newest zip
+from the [latest release](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener } and unzip it over your folder.
+If you've changed `themes.json`, keep a copy of yours first and put it back afterwards, because the zip includes the default file.
+
+!!! info "About the update check"
+    A downloaded copy checks GitHub once every 12 hours for a newer release. It
+    only reads the public release number; nothing about you is sent, and it never
+    downloads or installs anything by itself. Turn it off with
+    `python app.py --no-update-check` (or set `THEMEMAP_NO_UPDATE_CHECK=1`). Copies made with
+    `git clone` don't check: use `git pull` instead.

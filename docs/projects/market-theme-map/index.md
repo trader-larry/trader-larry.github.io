@@ -7,6 +7,7 @@ moved. Click a theme to see its stocks, then click a stock for its chart, the
 analysts' fair value and the consensus rating.
 
 [:material-play-circle: Try it live](https://market-theme-map.onrender.com/){ .md-button .md-button--primary target=_blank rel=noopener }
+[:material-download: Download](https://github.com/trader-larry/market-theme-map/releases/latest){ .md-button target=_blank rel=noopener }
 [:fontawesome-brands-github: View on GitHub](https://github.com/trader-larry/market-theme-map){ .md-button target=_blank rel=noopener }
 [:material-rocket-launch: Get started](getting-started.md){ .md-button }
 
@@ -18,6 +19,21 @@ analysts' fair value and the consensus rating.
     loads prices.
 
 ![Market Theme Map showing 25 theme tiles over one month, ranked by average move from Cloud & Software at the top left to Homebuilders at the bottom right, green for gains and red for losses](../../assets/images/market-theme-map/overview.webp){ .screenshot }
+
+## Latest release
+
+**[v1.0.0](https://github.com/trader-larry/market-theme-map/releases/tag/v1.0.0){ target=_blank rel=noopener }**, released November 26, 2026. This is the first
+release you can download as a ready-to-run zip: get `market-theme-map-v1.0.0.zip`
+(19 KB) under **Assets** on the [latest release](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener } page. You
+don't need git or a GitHub account. Then follow [Getting started](getting-started.md).
+
+What's in it:
+
+- **Background price refresh** that keeps the last good prices if Yahoo hiccups.
+- **Hosting on Render**, with an optional password and times in New York time.
+- **Update notice:** a banner tells you when a newer version is out.
+
+See the [full release notes](https://github.com/trader-larry/market-theme-map/releases/tag/v1.0.0){ target=_blank rel=noopener } for every change.
 
 ## Why I built it
 
@@ -33,6 +49,7 @@ needs no account or API key, and I can change the themes by editing one file.
 | | |
 |---|---|
 | **Runs on** | Windows, macOS, Linux (Python 3.10 or newer), or online on [Render](getting-started.md#host-it-on-render-optional)'s free plan |
+| **Latest version** | [v1.0.0](https://github.com/trader-larry/market-theme-map/releases/tag/v1.0.0){ target=_blank rel=noopener }, November 26, 2026 ([download](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener }) |
 | **Data** | Free, delayed prices and analyst targets from Yahoo Finance, or built-in demo data |
 | **Themes** | 25 themes and about 180 stocks, all in one editable file, `themes.json` |
 | **Privacy** | At home it runs at `http://localhost:8050` and only listens on your own computer; online you can protect it with a password |
