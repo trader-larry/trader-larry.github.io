@@ -6,7 +6,7 @@ hide:
 
 # Welcome
 
-This 'sandbox' is where I save and share my project ideas. I publish some of them on my personal GiHub page-> 
+This 'sandbox' is where I save and share my project ideas. I publish some of the code for my projects on my personal GiHub page-> 
 [GitHub](https://github.com/trader-larry){ target=_blank rel=noopener }. Publishing here on this site allows me to explain them in more detail than a README file on GitHub allows: what each app does: how to get started: working
 examples with screenshots: answers to common questions: and notes on what's changed.
 
