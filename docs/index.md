@@ -7,7 +7,7 @@ hide:
 # Welcome
 
 This 'sandbox' is where I save and share my project ideas. I publish some of them on my personal GiHub page-> 
-[GitHub](https://github.com/trader-larry){ target=_blank rel=noopener }. This site allows me to explain them in more detail than a README file on GitHub allows: what each app does: how to get started: worked
+[GitHub](https://github.com/trader-larry){ target=_blank rel=noopener }. This site allows me to explain them in more detail than a README file on GitHub allows: what each app does: how to get started: working
 examples with screenshots: answers to common questions: and notes on what's changed.
 
 ## Personal Projects
