@@ -38,7 +38,7 @@ theme:
         name: Switch to system preference
   features:
     - navigation.tabs          # top-level tabs: Home / Personal Projects / Blog / About
-    # (navigation.sections is off so each project folds open and closed in the sidebar)
+    - navigation.sections      # is on so each project expands open in the sidebar. To fold open and closed comment this entire line out
     - navigation.indexes       # a folder's index.md becomes its landing page
     - navigation.top           # "back to top" button
     - navigation.footer
