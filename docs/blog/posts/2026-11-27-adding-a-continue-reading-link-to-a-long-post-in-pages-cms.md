@@ -7,7 +7,7 @@ draft: false
 authors:
   - larry
 ---
-To add a 'Contune Reading' link to split a blog post, type (( more )) on a line by itself in your post (and without the spacing around the text 'more'). That's two round brackets on each side. Everything above that line shows on the Blog page, followed by **Continue reading**. The ((more)) line is hidden when someone opens the full post.
+To add a 'Contune Reading' link to split a blog post, type (( more )) on a line by itself in your post (and without the spacing around the text 'more'). That's two round brackets on each side. Everything above that line shows on the Blog page, followed by **Continue reading**. The (( more )) line is hidden when someone opens the full post.
 
 Example:
 
