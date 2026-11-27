@@ -48,6 +48,7 @@ content:
             - Desktop Charts
             - Dividend Dashboard
             - Market Theme Map
+            - Pages CMS
       - name: draft
         label: Draft (hidden from the site until you untick this)
         type: boolean
