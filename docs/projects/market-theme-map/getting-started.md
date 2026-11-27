@@ -30,17 +30,20 @@ python --version   # should be 3.10 or higher (on Mac and Linux: python3)
 
 1. Open the [latest release](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener }
    and, under **Assets**, download `market-theme-map-vX.Y.Z.zip` (for example
-   `market-theme-map-v1.0.0.zip`). You don't need git or a GitHub account.
+   `market-theme-map-v1.1.2.zip`). You don't need git or a GitHub account.
 2. Unzip it (Windows: right-click → **Extract All**; Mac: double-click) and move
    the folder wherever you like.
 3. Start it from inside that folder:
 
 === "Windows"
 
-    Double-click `run.bat`.
+    Double-click `app.py`. If it opens in a text editor instead of running,
+    right-click it, choose **Open with** and pick **Python**.
 
-    If Windows says "Windows protected your PC", click **More info → Run anyway**.
-    That appears for any downloaded script.
+    `run.bat` works too, but on PCs with Smart App Control turned on it's
+    blocked unless you right-click the zip, choose **Properties** and tick
+    **Unblock** before extracting. `app.py` runs either way. If Windows says
+    "Windows protected your PC", click **More info → Run anyway**.
 
 === "Mac and Linux"
 
@@ -61,11 +64,14 @@ window open while you use it.
 
 ## 3. Read the map
 
-- Pick a **Period** (1D to 1Y) and a **Rank by** order at the top.
+- Pick a **View** (Themes or Sectors), a **Period** (1D to 1Y) and a **Rank by**
+  order at the top.
 - Each tile shows the theme's average move in large type, its median, and how
   many of its stocks are up, with a bar for that share.
 - Click a tile to list its stocks, then click a stock for its chart and the
   analysts' view.
+- Below the map, the **All periods** table shows every period side by side.
+  Click a column to sort.
 - The **?** button explains the numbers. It opens by itself the first time.
 
 ## 4. Change the themes
@@ -80,6 +86,13 @@ its Yahoo Finance symbols:
 Use Yahoo's symbol format, for example `BRK-B`, `RY.TO` for Toronto or `^GSPC`
 for an index. A stock can be in more than one theme. Save the file and press
 **↻** in the app.
+
+The Sectors view reads `sectors.json` the same way, except each sector also
+names the ETF whose move its card shows:
+
+```json
+"Energy": {"etf": "XLE", "tickers": ["XOM", "CVX", "COP"]}
+```
 
 !!! warning "Keep the commas and quotes"
     Every theme line except the last ends with a comma, and every symbol is in
@@ -135,9 +148,18 @@ listens on `0.0.0.0` at that port and doesn't open a browser. Set
 
 ## Updating
 
-When a new version is out, the map shows a banner at the top with a download link. Download the newest zip
-from the [latest release](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener } and unzip it over your folder.
-If you've changed `themes.json`, keep a copy of yours first and put it back afterwards, because the zip includes the default file.
+When a new version is out, the map shows a banner at the top. Its link opens
+the [release page](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener }, which starts with these steps:
+
+1. Download `market-theme-map-vX.Y.Z.zip` from the **Assets** list.
+2. Close the app if it's running (close its window, or press ++ctrl+c++ in it).
+3. Unzip the download. Inside is a `market-theme-map` folder.
+4. Copy everything in it into your existing `market-theme-map` folder, and choose
+   **Replace the files in the destination** when asked.
+5. Start the app again. The update notice goes away once you're on the new version.
+
+If you've edited `themes.json` or `sectors.json`, copy them somewhere safe
+before step 4 and put them back afterwards, because the zip replaces them.
 
 !!! info "About the update check"
     A downloaded copy checks GitHub once every 12 hours for a newer release. It

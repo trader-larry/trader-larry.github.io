@@ -24,23 +24,31 @@ You can also try a read-only live demo with a sample portfolio, online on Render
 
 ## Latest release
 
-**[v1.0.0](https://github.com/trader-larry/dividend-dashboard/releases/tag/v1.0.0){ target=_blank rel=noopener }**, released November 26, 2026. This is the first
-release you can download as a ready-to-run zip: get `dividend-dashboard-v1.0.0.zip`
-(111 KB) under **Assets** on the [latest release](https://github.com/trader-larry/dividend-dashboard/releases/latest){ target=_blank rel=noopener } page. You
-don't need git or a GitHub account. Then follow [Getting started](getting-started.md).
+**[v1.0.1](https://github.com/trader-larry/dividend-dashboard/releases/tag/v1.0.1){ target=_blank rel=noopener }**, released November 26, 2026. Get
+`dividend-dashboard-v1.0.1.zip` (112 KB) under **Assets** on the
+[latest release](https://github.com/trader-larry/dividend-dashboard/releases/latest){ target=_blank rel=noopener } page. You don't need git or a GitHub account.
+Then follow [Getting started](getting-started.md).
 
-What's in it:
+What's new in v1.0.1:
 
-- **Planning tab:** try what-if allocations, lock a position's dollar amount
-  and spread the rest over the other rows.
-- **Summary tab:** a one-page snapshot you can save as a PNG or PDF.
-- **Holdings by size** panel on the Holdings & performance tab.
-- **Money market funds** (e.g. FDRXX) counted as interest, with Yahoo's 7-day yield.
-- **Research:** clickable holdings badges below the symbol field.
-- **Read-only demo mode** for hosting on Render.
-- **Update notice:** a banner tells you when a newer version is out.
+- **Easier start on Windows:** double-click `server.py`. Windows Smart App
+  Control doesn't block it the way it can block `run_windows.bat` from a
+  downloaded zip, and the window stays open if something goes wrong at startup
+  so you can read the message.
+- **Update steps on every release page:** the update notice now links to a
+  release page that starts with five numbered steps for updating.
 
-See the [full release notes](https://github.com/trader-larry/dividend-dashboard/releases/tag/v1.0.0){ target=_blank rel=noopener } for every change.
+??? note "v1.0.0, the first downloadable release"
+    - **Planning tab:** try what-if allocations, lock a position's dollar amount
+      and spread the rest over the other rows.
+    - **Summary tab:** a one-page snapshot you can save as a PNG or PDF.
+    - **Holdings by size** panel on the Holdings & performance tab.
+    - **Money market funds** (e.g. FDRXX) counted as interest, with Yahoo's 7-day yield.
+    - **Research:** clickable holdings badges below the symbol field.
+    - **Read-only demo mode** for hosting on Render.
+    - **Update notice:** a banner tells you when a newer version is out.
+
+See the [full release notes](https://github.com/trader-larry/dividend-dashboard/releases){ target=_blank rel=noopener } for every change.
 
 ## Why I built it
 
@@ -55,7 +63,7 @@ paid API key. This one keeps my holdings on my own machine.
 | | |
 |---|---|
 | **Runs on** | Windows, macOS, Linux (Python 3.9 or newer), or as a read-only demo on [Render](getting-started.md#host-it-on-render-optional)'s free plan |
-| **Latest version** | [v1.0.0](https://github.com/trader-larry/dividend-dashboard/releases/tag/v1.0.0){ target=_blank rel=noopener }, November 26, 2026 ([download](https://github.com/trader-larry/dividend-dashboard/releases/latest){ target=_blank rel=noopener }) |
+| **Latest version** | [v1.0.1](https://github.com/trader-larry/dividend-dashboard/releases/tag/v1.0.1){ target=_blank rel=noopener }, November 26, 2026 ([download](https://github.com/trader-larry/dividend-dashboard/releases/latest){ target=_blank rel=noopener }) |
 | **Data** | Yahoo Finance, cached for 15 minutes; optional `yfinance` fallback |
 | **Your holdings** | A plain `holdings.csv` you can edit in the page or in Excel |
 | **Privacy** | Runs at `http://127.0.0.1:8765`; holdings never leave your computer |

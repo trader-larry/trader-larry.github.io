@@ -3,8 +3,9 @@
 A heatmap of the stock market grouped by investment theme, that runs on your own
 computer and opens in your web browser, or online on Render. Each tile is a theme, such as AI
 Semiconductors, Nuclear & Uranium or Homebuilders, colored by how its stocks
-moved. Click a theme to see its stocks, then click a stock for its chart, the
-analysts' fair value and the consensus rating.
+moved. Switch to the 11 market sectors to see whether a hot theme is leading
+its whole sector. Click a tile to see its stocks, then click a stock for its
+chart, the analysts' fair value and the consensus rating.
 
 [:material-play-circle: Try it live](https://market-theme-map.onrender.com/){ .md-button .md-button--primary target=_blank rel=noopener }
 [:material-download: Download](https://github.com/trader-larry/market-theme-map/releases/latest){ .md-button target=_blank rel=noopener }
@@ -22,18 +23,31 @@ analysts' fair value and the consensus rating.
 
 ## Latest release
 
-**[v1.0.0](https://github.com/trader-larry/market-theme-map/releases/tag/v1.0.0){ target=_blank rel=noopener }**, released November 26, 2026. This is the first
-release you can download as a ready-to-run zip: get `market-theme-map-v1.0.0.zip`
-(19 KB) under **Assets** on the [latest release](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener } page. You
-don't need git or a GitHub account. Then follow [Getting started](getting-started.md).
+**[v1.1.2](https://github.com/trader-larry/market-theme-map/releases/tag/v1.1.2){ target=_blank rel=noopener }**, released November 26, 2026. Get
+`market-theme-map-v1.1.2.zip` (24 KB) under **Assets** on the
+[latest release](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener } page. You don't need git or a GitHub account.
+Then follow [Getting started](getting-started.md).
 
-What's in it:
+What's new since v1.0.0:
 
-- **Background price refresh** that keeps the last good prices if Yahoo hiccups.
-- **Hosting on Render**, with an optional password and times in New York time.
-- **Update notice:** a banner tells you when a newer version is out.
+- **Themes or sectors (v1.1.0):** a **View** switch shows the 11 standard
+  market sectors instead of the themes. Each sector card shows the move of its
+  SPDR sector ETF (XLK, XLF and so on).
+- **All-periods table (v1.1.0):** every theme or sector with its 1D to 1Y moves
+  side by side, under the map. Click a column to sort.
+- **Update steps on every release page (v1.1.1):** the update notice links to
+  a release page that starts with five numbered steps for updating.
+- **Easier start on Windows (v1.1.2):** double-click `app.py`, which Windows
+  Smart App Control doesn't block.
 
-See the [full release notes](https://github.com/trader-larry/market-theme-map/releases/tag/v1.0.0){ target=_blank rel=noopener } for every change.
+![Sectors view over one month: 11 sector cards, each with its SPDR ETF move, above the all-periods table](../../assets/images/market-theme-map/8-sectors-view.webp){ .screenshot loading=lazy }
+
+??? note "v1.0.0, the first downloadable release"
+    - **Background price refresh** that keeps the last good prices if Yahoo hiccups.
+    - **Hosting on Render**, with an optional password and times in New York time.
+    - **Update notice:** a banner tells you when a newer version is out.
+
+See the [full release notes](https://github.com/trader-larry/market-theme-map/releases){ target=_blank rel=noopener } for every change.
 
 ## Why I built it
 
@@ -49,9 +63,9 @@ needs no account or API key, and I can change the themes by editing one file.
 | | |
 |---|---|
 | **Runs on** | Windows, macOS, Linux (Python 3.10 or newer), or online on [Render](getting-started.md#host-it-on-render-optional)'s free plan |
-| **Latest version** | [v1.0.0](https://github.com/trader-larry/market-theme-map/releases/tag/v1.0.0){ target=_blank rel=noopener }, November 26, 2026 ([download](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener }) |
+| **Latest version** | [v1.1.2](https://github.com/trader-larry/market-theme-map/releases/tag/v1.1.2){ target=_blank rel=noopener }, November 26, 2026 ([download](https://github.com/trader-larry/market-theme-map/releases/latest){ target=_blank rel=noopener }) |
 | **Data** | Free, delayed prices and analyst targets from Yahoo Finance, or built-in demo data |
-| **Themes** | 25 themes and about 180 stocks, all in one editable file, `themes.json` |
+| **Themes** | 25 themes and about 180 stocks in `themes.json`, plus the 11 market sectors in `sectors.json`, both editable |
 | **Privacy** | At home it runs at `http://localhost:8050` and only listens on your own computer; online you can protect it with a password |
 | **Account access** | None: no login, no API key, no broker connection |
 | **Dependencies** | None: Python's standard library plus one HTML page, nothing to `pip install` |
@@ -59,7 +73,11 @@ needs no account or API key, and I can change the themes by editing one file.
 
 ## Highlights
 
+- **Themes or sectors:** switch the map between 25 investment themes and the
+  11 market sectors, each sector matched to its SPDR sector ETF.
 - **Six lookbacks:** 1D, 1W, 1M, 3M, 6M and 1Y, counted in trading sessions.
+- **All-periods table:** every lookback side by side under the map, sortable
+  by any column.
 - **Rank themes** by average move, by breadth (the share of stocks up), or by name.
 - **Theme stats:** an equal-weighted average, the median (so one big mover
   can't distort the picture) and breadth, with a bar on every tile.
@@ -68,8 +86,8 @@ needs no account or API key, and I can change the themes by editing one file.
 - **Stock detail:** a price chart, the analysts' mean price target and upside,
   low and high targets, number of analysts, consensus rating, P/E, market cap
   and 52-week range.
-- **Your own themes:** add, remove or rename themes in `themes.json`, then
-  press ↻ to pick them up.
+- **Your own themes:** add, remove or rename themes in `themes.json` (or
+  sectors in `sectors.json`), then press ↻ to pick them up.
 - **Works on Windows 11 with Smart App Control:** no add-on packages, so there
   are no unsigned DLLs to block.
 

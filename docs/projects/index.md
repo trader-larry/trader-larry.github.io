@@ -30,7 +30,7 @@ a feature tour, screenshots and an FAQ.
 
   ---
 
-  A heatmap of the market by theme, from AI chips to homebuilders.
+  A heatmap of the market by theme or sector, from AI chips to homebuilders.
 
   [:octicons-arrow-right-24: Overview](market-theme-map/index.md) ·
   [:material-play-circle: Try it live](https://market-theme-map.onrender.com/){ target=_blank rel=noopener } ·

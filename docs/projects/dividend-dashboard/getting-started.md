@@ -29,17 +29,20 @@ python --version   # or python3 --version on a Mac; should be 3.9 or higher
 
 1. Open the [latest release](https://github.com/trader-larry/dividend-dashboard/releases/latest){ target=_blank rel=noopener }
    and, under **Assets**, download `dividend-dashboard-vX.Y.Z.zip` (for example
-   `dividend-dashboard-v1.0.0.zip`). You don't need git or a GitHub account.
+   `dividend-dashboard-v1.0.1.zip`). You don't need git or a GitHub account.
 2. Unzip it (Windows: right-click → **Extract All**; Mac: double-click) and move
    the folder wherever you like.
 3. Start it from inside that folder:
 
 === "Windows"
 
-    Double-click `run_windows.bat`.
+    Double-click `server.py`. If it opens in a text editor instead of
+    running, right-click it, choose **Open with** and pick **Python**.
 
-    If Windows says "Windows protected your PC", click **More info → Run anyway**.
-    That appears for any downloaded script.
+    `run_windows.bat` works too, but on PCs with Smart App Control turned on
+    it's blocked unless you right-click the zip, choose **Properties** and tick
+    **Unblock** before extracting. `server.py` runs either way. If Windows says
+    "Windows protected your PC", click **More info → Run anyway**.
 
 === "Mac / Linux"
 
@@ -167,9 +170,18 @@ To change the sample portfolio, edit the two files in `demo/` in your copy and p
 
 ## Updating
 
-When a new version is out, the dashboard shows a banner at the top with a download link. Download the newest zip
-from the [latest release](https://github.com/trader-larry/dividend-dashboard/releases/latest){ target=_blank rel=noopener } and unzip it over your folder.
-Your `holdings.csv` is never in the zip, so your holdings are kept.
+When a new version is out, the dashboard shows a banner at the top. Its link
+opens the [release page](https://github.com/trader-larry/dividend-dashboard/releases/latest){ target=_blank rel=noopener }, which starts with these steps:
+
+1. Download `dividend-dashboard-vX.Y.Z.zip` from the **Assets** list.
+2. Stop the dashboard if it's running (click **Stop** at the top right, or close its window).
+3. Unzip the download. Inside is a `dividend-dashboard` folder.
+4. Copy everything in it into your existing `dividend-dashboard` folder, and choose
+   **Replace the files in the destination** when asked.
+5. Start it again. The update notice goes away once you're on the new version.
+
+Your holdings are safe: `holdings.csv`, `holdings_path.txt`, saved Planning
+scenarios and `backups/` are never in the zip, so replacing files doesn't touch them.
 
 !!! info "About the update check"
     A downloaded copy checks GitHub once every 12 hours for a newer release. It

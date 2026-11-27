@@ -13,6 +13,23 @@ a 1D move. A tile is fully green at +3% on 1D, +12% on 1M and +45% on 1Y.
 The status line at the top right shows the last trading day in the data, when
 prices were last updated, and **DEMO DATA** when you started it with `--demo`.
 
+## Themes or sectors
+
+The **View** switch at the top flips the map between **Themes** and
+**Sectors**. Sectors are the 11 standard GICS sectors, such as Information
+Technology, Health Care and Energy, each with nine or ten of its largest
+companies.
+
+A sector card's big number is the move of its State Street SPDR sector ETF
+(XLK, XLV, XLE and so on), so it matches those funds, which weight companies by
+size. The median and the number of stocks up come from the companies listed
+under the sector. Compare the two views to see whether a hot theme is leading
+its whole sector or running on its own. A stock can be in a theme and a sector
+at the same time, and switching views is instant because prices for both are
+downloaded together.
+
+![Sectors view over one month: 11 sector cards with their SPDR ETF tickers and moves, and a note that sector moves come from the ETFs](../../assets/images/market-theme-map/8-sectors-view.webp){ .screenshot loading=lazy }
+
 ## Periods
 
 | Button | Lookback |
@@ -38,6 +55,16 @@ weekends don't skew them. Prices are adjusted for splits and dividends.
 The app remembers your period and ranking for next time.
 
 ![Themes over three months ranked by breadth, so the themes with the most stocks up come first](../../assets/images/market-theme-map/3-rank-by-breadth.webp){ .screenshot loading=lazy }
+
+## All-periods table
+
+Below the map, a table lists every theme (or sector, following the View
+switch) with its move for each period, 1D to 1Y, side by side and colored like
+the tiles. Click a column heading to sort by it. By default the table follows
+the map's period and ranking, with the map's period highlighted. Click a name
+to open its detail.
+
+![All-periods table for the themes, sorted by the 1M column, with each cell colored green or red by its move](../../assets/images/market-theme-map/9-all-periods-table.webp){ .screenshot loading=lazy }
 
 ## Theme detail
 
@@ -66,8 +93,8 @@ Analyst data is fetched when you open a stock and kept for 6 hours.
 
 ## Your own themes
 
-All themes live in `themes.json`. Add a theme, remove one, or move stocks
-between them, then press **↻** in the app. See
+All themes live in `themes.json`, and the sectors in `sectors.json`. Add a
+theme, remove one, or move stocks between them, then press **↻** in the app. See
 [Change the themes](getting-started.md#4-change-the-themes) for the format.
 
 The 25 themes it comes with:
