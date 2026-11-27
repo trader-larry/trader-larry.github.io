@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-# Welcome...
+# Welcome
 
-to my 'sandbox' where I save and sharedetails about my project ideas. I publish some of the code for my projects on my personal GiHub page-> 
+... to my 'sandbox' where I save and sharedetails about my project ideas. I publish some of the code for my projects on my personal GiHub page-> 
 [GitHub](https://github.com/trader-larry){ target=_blank rel=noopener }. Publishing here allows me to explain the projects in more detail than a README file on GitHub allows: what each app does: how to get started: working
 examples with screenshots: answers to common questions: and notes on what's changed.
 
