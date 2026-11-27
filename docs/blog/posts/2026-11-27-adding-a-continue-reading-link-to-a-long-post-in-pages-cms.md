@@ -1,5 +1,5 @@
 ---
-title: Adding a 'Continue Reading' link to a Long Post in Pages CMS
+title: How to add a 'Continue Reading' link using Pages CMS
 date: 2026-11-27
 categories:
   - Pages CMS
