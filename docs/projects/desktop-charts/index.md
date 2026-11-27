@@ -1,6 +1,6 @@
 # Desktop Charts
 
-A TradingView-style charting app that runs on your own computer and opens in
+A TradingView-style charting app based on 'Tradingview Lightweight Charts', that runs on your own computer and opens in
 your web browser. Up to 24 charts per window, extra windows for more screens, volume profile and TPO,
 anchored VWAP, drawing tools, price alerts and watchlists, with live market data from your
 tastytrade account. Without an account it runs on demo data, so anyone can try it.
