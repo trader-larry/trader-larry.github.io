@@ -38,7 +38,8 @@ theme:
         name: Switch to system preference
   features:
     - navigation.tabs          # top-level tabs: Home / Personal Projects / Blog / About
-    - navigation.sections      # is on so each project expands open in the sidebar. To fold open and closed comment this entire line out
+    # navigation.sections is off so project sections fold open and closed; the blog's
+    # Archive and Categories are kept open by javascripts/blog-nav-open.js
     - navigation.indexes       # a folder's index.md becomes its landing page
     - navigation.top           # "back to top" button
     - navigation.footer
@@ -85,6 +86,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/read-more.js   # hides the ((more)) line on full posts
+  - javascripts/blog-nav-open.js   # keeps Archive and Categories open in the blog sidebar
 
 extra:
   social:
