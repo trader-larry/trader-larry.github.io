@@ -9,6 +9,19 @@ All 25 themes over one month, ranked by average move.
 
 ![Market Theme Map showing 25 theme tiles over one month, ranked by average move, green for gains and red for losses](../../assets/images/market-theme-map/overview.webp){ .screenshot loading=lazy }
 
+## Sectors view
+
+The 11 market sectors over one month. Each card shows its SPDR sector ETF's
+move, with the all-periods table below.
+
+![Sectors view over one month with 11 sector cards and the all-periods table](../../assets/images/market-theme-map/8-sectors-view.webp){ .screenshot loading=lazy }
+
+## All-periods table
+
+Every theme's move for each period side by side, sorted by 1M.
+
+![All-periods table for the 25 themes, sorted by the 1M column](../../assets/images/market-theme-map/9-all-periods-table.webp){ .screenshot loading=lazy }
+
 ## Theme detail
 
 Data Center Power's stocks, strongest first, with each move drawn left or

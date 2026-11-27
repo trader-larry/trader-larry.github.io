@@ -121,9 +121,20 @@ it starts.
 
 ## Updating
 
-When a new version is out, the app shows **Update available** in the status bar with a link. Download the newest zip
-from the [latest release](https://github.com/trader-larry/desktop-charts/releases/latest){ target=_blank rel=noopener } and unzip it over your folder.
-Your `config.json` (tastytrade keys) is never in the zip, so it's kept, and your layouts, drawings, watchlists and alerts live in your browser.
+When a new version is out, the status bar at the bottom shows **Update
+available** with a link to the [release page](https://github.com/trader-larry/desktop-charts/releases/latest){ target=_blank rel=noopener }.
+To update:
+
+1. Download `desktop-charts-vX.Y.Z.zip` from the **Assets** list.
+2. Close the app if it's running (the chart window and the black server window).
+3. Unzip the download. Inside is a `desktop-charts` folder.
+4. Copy everything in it into your existing `desktop-charts` folder, and choose
+   **Replace the files in the destination** when asked.
+5. Start the app again.
+
+Your `config.json` (tastytrade keys) is never in the zip, so it's kept. Your
+layouts, drawings, watchlists and alerts are stored in your browser, so they're
+kept too.
 
 !!! info "About the update check"
     A downloaded copy checks GitHub once every 12 hours for a newer release. It
